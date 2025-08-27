@@ -80,9 +80,13 @@
     </p>
 
     <xi:include href="./previews/PA-1-2-WW.xml" />
+    <xi:include href="./previews/PA-1-2-D.xml" />    
     <xi:include href="./previews/PA-1-2.xml" />
+
   </subsection>
+  
   <xi:include href="./proteus/proteus-1-2.xml" />
+  
   <subsection>
     <title>The Notion of Limit</title>
     <p>
@@ -627,4 +631,6 @@
   </subsection>
 
   <xi:include href="./exercises/ez-1-2.xml"/>
+  <xi:include href="./exercises/ez-1-2-D.xml"/>  
+  
 </section>

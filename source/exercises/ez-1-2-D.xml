@@ -13,43 +13,72 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-2"  component="static runestone">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-2-D" component="doenet">
 
-<!-- 
-    <introduction>
-      <p>
-        The notation <m>\lim_{x \to a^-}f(x)</m> means <q>the limit as <m>x</m> approaches <m>a</m> <em>from the left</em></q>, which means we only consider <m>x</m>-values that are less than <m>a</m> for the value of this limit.  Similarly, the notation <m>\lim_{x \to a^-}f(x)</m> means <q>the limit as <m>x</m> approaches <m>a</m> <em>from the right</em></q>, for which we only consider <m>x</m>-values that are greater than <m>a</m>. 
-      </p>
-    </introduction>  
--->
+<exercise xml:id="ez-1-2-doenet-1">
+  <title>Using a graph to determine limits</title>
+     <interactive xml:id="doenet-interactive-exercise-1-2-1" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-2-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
 
-  <exercise label="Library__Michigan__Chap1Sec8__Q01.pg">
-    <webwork source="csafranski/1.2HW_prob1.pg"/>
-  </exercise>
-  <exercise label="Library__UMN__calculusStewartCCC__s_2_3_4.pg">
-    <webwork source="Library/UMN/calculusStewartCCC/s_2_3_4.pg"/>
-  </exercise>
-  <exercise label="Library__Union__setLimitConcepts__s1_3_19.pg">
-    <webwork source="Library/Union/setLimitConcepts/s1_3_19.pg"/>
-  </exercise>
-  <exercise label="Library__UMN__calculusStewartCCC__s_2_3_18.pg">
-    <webwork source="Library/UMN/calculusStewartCCC/s_2_3_18.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec1__Q18.pg">
-    <webwork source="Library/Michigan/Chap2Sec1/Q18.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap1Sec8__Q13.pg">
-    <webwork source="Library/Michigan/Chap1Sec8/Q13.pg"/>
-  </exercise>
-  <exercise label="Library__ASU-topics__setLimitConcepts__3-2-50.pg">
-    <webwork source="csafranski/1.2HW_prob7.pg"/>
-  </exercise>
-  <!-- Problem code is structured to create tabular within tabular; not supported -->
-  <!--
-  <exercise label="Library__ASU-topics__setLimitConcepts__ur_lr_1-5_1" xml:id="ez-1-2-WW2">
-    <webwork source="Library/ASU-topics/setLimitConcepts/ur_lr_1-5_1.pg" />
-  </exercise>
-  -->
+<exercise xml:id="ez-1-2-doenet-2">
+  <title>**TITLE**</title>
+     <interactive xml:id="doenet-interactive-exercise-1-2-2" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-2-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise xml:id="ez-1-2-doenet-3">
+  <title>**TITLE**</title>
+     <interactive xml:id="doenet-interactive-exercise-1-2-3" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-2-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise xml:id="ez-1-2-doenet-4">
+  <title>Expanding and factoring to determine limits</title>
+     <interactive xml:id="doenet-interactive-exercise-1-2-4" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-2-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise xml:id="ez-1-2-doenet-5">
+  <title>Using a limit to determine instantaneous velocity</title>
+     <interactive xml:id="doenet-interactive-exercise-1-2-5" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-2-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise xml:id="ez-1-2-doenet-6">
+  <title>Using algebra to evaluate limits</title>
+     <interactive xml:id="doenet-interactive-exercise-1-2-6" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-2-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise xml:id="ez-1-2-doenet-7">
+  <title>Estimating a limit numerically</title>
+     <interactive xml:id="doenet-interactive-exercise-1-2-7" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-2-D-7.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+
   <exercise xml:id="ez-1-2-Rational" permid="oau">
     <statement>
       <p permid="ZPL">
