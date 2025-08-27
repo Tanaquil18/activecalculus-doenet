@@ -14,6 +14,12 @@
       platform="runestone" 
     />
     <target
+      name="doenet"
+      format="html"
+      xsl="acs-html.xsl"
+      publication="publication_doenet.ptx"
+      platform="runestone" />    
+    <target
       name="runestone"
       format="html"
       xsl="acs-html.xsl"
