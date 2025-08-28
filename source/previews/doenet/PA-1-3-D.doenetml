@@ -1,0 +1,163 @@
+  <p>
+    Suppose that <m>f</m> is the function given by the graph below and that <m>a</m> and <m>a+h</m> are the input values as labeled on the <m>x</m>-axis.
+    Use the provided graph to answer the following questions.
+  </p>
+
+  <setup>
+    <function name = "f"> 0.1*x*(x+2)*(x-3) + 2</function>
+    <boolean name="showLabels">True</boolean>
+    <boolean name="hideTriangle">True</boolean>    
+  </setup>
+
+  <!--interactive answers-->
+  <!--Note that the interactivity is built into the graph/figure for the problem-->
+  <graph name = "g" showNavigation="false" xmin="-1" xmax="5" ymin="-2" ymax="6" displayXAxis="false" displayYAxis="false" showBorder="false" >
+    $f
+    <label anchor="(4,$$f(4)-0.5)">f</label>
+    <lineSegment name="tickmarka" endpoints="(1,0.12) (1,-0.12)" styleNumber="5" draggable="false" endpointsDraggable="false"/>
+    <text anchor="(1,-0.5)" draggable="false">a</text>
+    <lineSegment name="tickmarkaph" endpoints="(3.5,0.12) (3.5,-0.12)" styleNumber="5" draggable="false" endpointsDraggable="false"/>
+    <text anchor="(3.5,-0.5)" draggable="false">a+h</text>
+    <line name="xAxis" draggable="false" styleNumber="5">y = 0</line>
+    <lineSegment name="yAxis" draggable="false" styleNumber="5" endpoints="(0,6) (0,-1)"/>
+
+    <booleanInput name="hideTriangle" anchor="(-0.25,-1.5)" prefill="true">
+      <label>Hide triangle</label>
+    </booleanInput>
+    
+    <point styleNumber="2" coords="(1.5,-1.01)"  name="fa" showCoordsWhenDragging="false" draggable="$showLabels" labelPosition="lowerLeft"> 
+      <constraints>
+        <constrainToGrid dx="0.2" dy="0.2"/>
+        <attractTo><point>(1,$$f(1))</point></attractTo>
+      </constraints>
+      <label name="fa1" hide="$showLabels"> (a,f(a)) </label>
+    </point>
+    
+    <point styleNumber="2" coords="(2.5,-1,01)"  name="faph" showCoordsWhenDragging="false" draggable="$showLabels" labelPosition="lowerRight"> 
+      <constraints>
+        <constrainToGrid dx="0.25" dy="0.148"/>
+        <attractTo><point>(3.5,$$f(3.5))</point></attractTo>
+      </constraints>
+      <label name="fa2" hide="$showLabels"> (a+h,f(a+h)) </label>
+    </point>
+
+
+      <group name="Triangle" hide="$hideTriangle">
+        <point name="P1" showCoordsWhenDragging="false"> (-0.75,-0.5) 
+          <constraints name="c1">
+            <attractTo threshold="0.25"> $fa $faph <point>(3.5,$$f(1)) </point> </attractTo>
+          </constraints>
+        </point>
+        <point name="P2" showCoordsWhenDragging= "false"> (-0.5,-0.1) 
+          <constraints name="c2">
+            <attractTo threshold="0.25">  $fa $faph <point>(3.5,$$f(1))</point> </attractTo>
+          </constraints>
+        </point>
+        <point name="P3" showCoordsWhenDragging= "false"> (-0.25, -0.5) 
+          <constraints name="c3"> 
+            <attractTo threshold="0.25">  $fa $faph <point>(3.5,$$f(1))</point> </attractTo>
+          </constraints>
+        </point>
+      <triangle name = "T1" vertices="$P1 $P2 $P3" styleNumber="3"/>
+    </group>
+  </graph>
+  <!--End of interactive answers-->
+    
+   
+  <p>
+    <ol marker="a.">
+      <li>
+        <p>
+          Drag the two red points so that they are located at 
+          <m>(a,f(a))</m> and <m>(a+h, f(a+h))</m> on the graph of <m>f</m>.
+        </p>
+        <!--Answer block-->
+        <answer name="doneDragging" matchPartial>
+          <award>
+            <when> <boolean>$fa.coords= (1,$$f(1))</boolean> and <boolean>$faph.coords= (3.5 ,$$f(3.5))</boolean> </when>
+          </award>
+        </answer>
+
+        <updateValue triggerWhen="$doneDragging.creditAchieved=1" 
+          target="showLabels.value" newValue="False" />
+        <!--End Answer block-->
+      </li>
+      
+
+      <li>
+        <p>
+          Uncheck the <q>Hide triangle</q> box to reveal a moveable triangle.  Drag the three vertices of the triangle to construct a right triangle whose hypotenuse is the line segment from
+          <m>(a,f(a))</m> to <m>(a+h,f(a+h))</m>.
+        </p>
+
+  <!--Interactive Answers-->   
+        <setup>
+          <point name="V1">(1,$$f(1))</point>
+          <point name="V2">(3.5,$$f(3.5))</point>
+          <point name="V3">(3.5,$$f(1))</point>
+        </setup>
+
+        <!--
+        <updateValue target="Triangle.hide" newValue="false" type="boolean" disabled="$Triangle.hide=false">
+          <label>Add Triangle</label>
+        </updateValue> <nbsp/><nbsp/>
+        -->
+        
+        <answer name="triangle" matchPartial>
+          <award unorderedCompare>
+            <when> <mathList>$T1.vertices</mathList>=<mathList>$V1 $V2 $V3</mathList></when> 
+          </award> 
+        </answer>
+
+        <p>
+          What are the lengths of the respective legs of this triangle (in either order)?</p>
+        <p>
+        <mathInput name="leg1" minWidth="150"/> and <mathInput name="leg2" minWidth="150"/>
+        <answer name="legs" matchPartial>
+          <award>
+            <when>($leg1, $leg2) = <math unordered>(h,f(a+h)-f(a))</math></when>
+          </award>
+        </answer>
+</p>
+ 
+<!--End of interactive answers-->
+      </li>
+
+      <li>
+        <p>
+          What is the slope of the line that connects the points
+          <m>(a,f(a))</m> and <m>(a+h, f(a+h))</m>?
+        </p>
+      <!--Interactive Answers-->
+        <mathInput name="slope" minWidth="150"/>
+        <answer name="slopevalue">
+          <award>
+            <when>$slope = <math>(f(a+h)-f(a))/h</math></when>
+          </award>
+        </answer>        
+      <!-- End of interactive answers-->
+
+      </li>
+      <li>
+        <p>
+          Write a meaningful sentence that explains how the average rate of change of the function on a given interval and the slope of a related line are connected.
+        </p>
+        <answer name="connections" type="text" handGraded expanded forceFullCheckworkButton/>
+      </li>
+
+      <li>
+        <p>
+          In the algebraic expression for <m>AV_{[a,a+h]} </m>, what does <m>h</m> represent?
+        </p>  
+        <answer>
+          <choiceInput inline>
+            <choice>the change in <m>f</m> on the interval <m>[a, a+h]</m></choice>
+            <choice>the height of the function at <m>x = a</m></choice>
+            <choice credit="1">the change in <m>x</m> on the interval <m>[a, a+h]</m></choice>
+            <choice>the average rate of change of the function on the interval <m>[a, a+h]</m></choice>
+          </choiceInput></answer> 
+        
+      </li>  
+
+    </ol>
+  </p>
