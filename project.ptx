@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project ptx-version="2">
   <targets>
-    <target name="html2e" format="html" xsl="acs-html.xsl" publication="publication_ed2.ptx" />
+    <target name="html2e" format="html" xsl="acs-html.xsl" publication="publication_ed2.ptx" deploy-dir="html2e" />
     <target name="html1e" format="html" xsl="acs-html.xsl" publication="publication.ptx" />
     <target name="latex" format="latex" xsl="acs-latex.xsl" publication="publication_ed2_print.ptx" />
     <target name="pdf" format="pdf" xsl="acs-latex.xsl" latex-engine="xelatex" publication="publication_ed2_print.ptx" />
@@ -18,7 +18,8 @@
       format="html"
       xsl="acs-html.xsl"
       publication="publication_doenet.ptx"
-      platform="runestone" />    
+      platform="runestone"
+      deploy-dir="doenet" />    
     <target
       name="runestone"
       format="html"
