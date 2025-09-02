@@ -13,34 +13,45 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-4" component="static runestone">
-  <exercise label="Library__Michigan__Chap2Sec3__Q09.pg">
-    <webwork source="Library/Michigan/Chap2Sec3/Q09.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec3__Q31.pg">
-    <webwork source="Library/Michigan/Chap2Sec3/Q31.pg"/>
-  </exercise>
-  <exercise label="csafranski__1.4HW_prob3.pg">
-    <webwork source="csafranski/1.4HW_prob3.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec3__Q41.pg">
-    <webwork source="Library/Michigan/Chap2Sec3/Q41.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec3__Q37.pg">
-    <webwork source="Library/Michigan/Chap2Sec3/Q37.pg"/>
-  </exercise>
-  <exercise label="csafranski__1.4HW_prob6.pg">
-    <webwork source="csafranski/1.4HW_prob6.pg"/>
-  </exercise>
-  <exercise label="csafranski__1.4HW_prob7.pg">
-    <webwork source="csafranski/1.4HW_prob7.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec3__Q15.pg">
-    <webwork source="Library/Michigan/Chap2Sec3/Q15.pg"/>
-  </exercise>
-  <exercise label="csafranski__1.4HW_prob9.pg">
-    <webwork source="csafranski/1.4HW_prob9.pg"/>
-  </exercise>
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-4" component="doenet">
+
+<exercise xml:id="ez-1-4-doenet-1">
+  <title>Sketching the derivative of a quadratic function</title>
+     <interactive xml:id="doenet-interactive-exercise-1-4-1" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-4-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
+<exercise xml:id="ez-1-4-doenet-2">
+  <title>Sketching the derivative of a piecewise linear function</title>
+     <interactive xml:id="doenet-interactive-exercise-1-4-2" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-4-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
+<exercise xml:id="ez-1-4-doenet-3">
+  <title>Sketching the derivative of a cubic function</title>
+     <interactive xml:id="doenet-interactive-exercise-1-4-3" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-4-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
+<exercise xml:id="ez-1-4-doenet-4">
+  <title>Identifying which graph is the original function and which is its derivative</title>
+     <interactive xml:id="doenet-interactive-exercise-1-4-4" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-4-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+
   <exercise permid="Vnj">
     <statement>
       <p permid="VBE">
