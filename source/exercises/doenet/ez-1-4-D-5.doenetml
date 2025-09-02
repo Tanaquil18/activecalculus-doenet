@@ -23,7 +23,7 @@
 </setup>
 
   <p>
-    Consider the function <m>f(x) = $f</m>.  We are going to use the limit definition of the derivative to determine <m>f'($c)</m>.
+    Consider the function <m>f(x) = $f</m>.  We are going to use the limit definition of the derivative to determine a formula for <m>f'(x)</m>.
 
     <ol marker="a.">
       <li>
