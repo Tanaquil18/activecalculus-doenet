@@ -51,6 +51,41 @@
     </interactive>  
 </exercise> 
 
+<exercise xml:id="ez-1-4-doenet-5">
+  <title>Applying the limit definition of the derivative to a linear function</title>
+     <interactive xml:id="doenet-interactive-exercise-1-4-5" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-4-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise xml:id="ez-1-4-doenet-6">
+  <title>Applying the limit definition of the derivative to a quadratic function</title>
+     <interactive xml:id="doenet-interactive-exercise-1-4-6" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-4-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise xml:id="ez-1-4-doenet-7">
+  <title>Applying the limit definition of the derivative to a rational function</title>
+     <interactive xml:id="doenet-interactive-exercise-1-4-7" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-4-D-7.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise xml:id="ez-1-4-doenet-8">
+  <title>Applying the limit definition of the derivative to limited information</title>
+     <interactive xml:id="doenet-interactive-exercise-1-4-8" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-4-D-8.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
 
   <exercise permid="Vnj">
     <statement>

@@ -13,17 +13,16 @@
 <!-- **********************************************************************-->
 
 <setup>
-<selectFromSequence name="a" from="-7" to="-3"/>
-<selectFromSequence name="b" from="2" to="6"/>  
+<selectFromSequence name="a" from="2" to="5"/>
 <selectFromSequence name="c" from="-3" to="3" exclude="0"/>  
 <function name="f">
-    $a*x + $b
+    $c + $a*x - x^2
   </function>
   <derivative name="fP">$f</derivative>  
 </setup>
 
   <p>
-    Consider the function <m>f(x) = $f</m>.  We are going to use the limit definition of the derivative to determine a formula for <m>f'(x)</m>.
+    Consider the function <m>f(x) = $f</m>.  We are going to use the limit definition of the derivative to determine <m>f'(x)</m>.
 
     <ol marker="a.">
       <li>
@@ -33,14 +32,14 @@
           and thus we need to determine expressions for <m>f(x+h)</m> and <m>f(x+h) - f(x)</m>.
         </p>
 
-        <p>Using the given formula <m>f(x) = $f</m>, 
-      which of the following is the simplest possible expression for <m>f(x+h)</m>?</p>
+        <p>Using the given formula, <m>f(x) = $f</m>, 
+      which of the following expressions is equivalent to <m>f(x+h)</m>?</p>
             <answer>
               <choiceInput>
-                <choice><m>f(x+h)=  <math simplify> -$a*x + $b + $a*h</math></m>  </choice>
-                <choice><m>f(x+h)=  <math simplify> $a*x + $b - $a*h</math></m>  </choice>              
-                <choice><m>f(x+h) = $a(x-h) + $b </m></choice>
-                <choice credit="1"><m>f(x+h)=  <math simplify> $a*x + $b + $a*h</math></m>  </choice>
+                <choice><m>f(x+h) = $c - $a(x+h) + (x+h)^2 </m></choice>
+                <choice><m>f(x+h)= $c + <math>$a*h</math> + h^2 + ($a+2x)h - x^2 </m>  </choice>
+                <choice credit="1"><m>f(x+h)= $c + <math>$a*h</math> - h^2 + ($a-2x)h - x^2 </m>  </choice>          
+                <choice><m>f(x+h)= $c + <math>$a*h</math> - h^2 + (1-2x)h - x^2 </m>  </choice>
               </choiceInput>
             </answer>  
       </li>
@@ -48,10 +47,10 @@
       <p>Which of the following is the simplest possible expression for <m>f(x+h) - f(x)</m>?</p>
             <answer>
               <choiceInput>
-                <choice><m>f(x+h) - f(x) = $a(x+h) + $b - (<math simplify="numbers">$a*x+$b</math>) </m></choice>
-                <choice credit="1"><m>f(x+h) - f(x) =  <math simplify>$a*h </math></m>  </choice>
-                <choice><m>f(x+h) - f(x) =  <math simplify>-$a*h </math></m>  </choice>
-                <choice><m>f(x+h) - f(x) =  <math simplify>$a*h + 2*$b </math></m>  </choice>  
+                <choice><m>f(x+h) - f(x) = $a(x+h)-(x+h)^2 + <math simplify>-1*$$f(x)</math> </m></choice>
+                <choice><m>f(x+h) - f(x) =  - h^2 + <math simplify>$a*h </math></m>  </choice>
+                <choice><m>f(x+h) - f(x) =  <math>$a*h</math> + h^2 - 2xh</m>  </choice>  
+                <choice credit="1"><m>f(x+h)  - f(x) =  <math>$a*h</math> - h^2 - 2xh</m>  </choice> 
               </choiceInput>
             </answer>   
       </li>
@@ -59,16 +58,16 @@
         <p>
           Next, apply the limit definition of the derivative by substituting the simplest possible expression for <m>f(x+h)-f(x)</m> in the space provided:
         </p>
-        <p><m>f'(x)= \displaystyle \lim_{h \to 0} \frac{f(x+h)-f(x)}{h} = \lim_{h \to 0} </m> <mathInput name="dq_x1" minWidth="50" prefill="/h"></mathInput>
+        <p><m>f'(x)= \displaystyle \lim_{h \to 0} \frac{f(x+h)-f(x)}{h} = \lim_{h \to 0} </m> <mathInput name="dq_x1" prefill="/h"></mathInput>
       <answer><award><when>$dq_x1 = 
         ($$f(x+h) - $$f(x))/h
       </when></award></answer></p>
       </li>
       <li>
-        <p>Simplifying the difference quotient in part (c) as much as possible, we see that</p>
+        <p>Further, factoring the numerator and simplifying the quotient as much as possible, we see that</p>
         <p>  <m>f'(x)= \displaystyle \lim_{h \to 0} </m> <mathInput name="simp_x1"></mathInput>
       <answer><award><when>$simp_x1 = 
-        $a
+        ($$f(x+h) - $$f(x))/h
       </when></award></answer></p>
       </li>
       <li>
