@@ -12,22 +12,62 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-5" component="static runestone">
-  <exercise label="Library__Michigan__Chap2Sec4__Q01.pg">
-    <webwork source="csafranski/1.5HW_prob1.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec4__Q03.pg">
-    <webwork source="Library/Michigan/Chap2Sec4/Q03.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec4__Q11.pg">
-    <webwork source="Library/Michigan/Chap2Sec4/Q11.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec4__Q15.pg">
-    <webwork source="Library/Michigan/Chap2Sec4/Q15.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec3__Q11.pg">
-    <webwork source="csafranski/1.5HW_prob5.pg"/>
-  </exercise>
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-5" component="doenet">
+
+<exercise xml:id="ez-1-5-doenet-1">
+  <title>Interpreting numerical information about how temperature changes</title>
+     <interactive xml:id="doenet-interactive-exercise-1-5-1" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-5-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-5-doenet-2">
+  <title>Interpreting numerical information about how a car's value changes</title>
+     <interactive xml:id="doenet-interactive-exercise-1-5-2" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-5-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-5-doenet-3">
+  <title>Interpreting numerical information about how water in a tank changes</title>
+     <interactive xml:id="doenet-interactive-exercise-1-5-3" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-5-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-5-doenet-4">
+  <title>Interpreting numerical information about how a car's gas mileage changes</title>
+     <interactive xml:id="doenet-interactive-exercise-1-5-4" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-5-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-5-doenet-5">
+  <title>Interpreting information about a braking car's velocity</title>
+     <interactive xml:id="doenet-interactive-exercise-1-5-5" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-5-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-5-doenet-6">
+  <title>Estimating derivative values from data</title>
+     <interactive xml:id="doenet-interactive-exercise-1-5-6" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-5-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="caK">
     <statement>
       <p permid="cYZ">

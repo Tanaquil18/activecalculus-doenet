@@ -15,8 +15,8 @@
 
 <setup>
 
-  <selectFromSequence name="a" from="-4" to="4" step="1" exclude="0"/>
-  <selectFromSequence name="b" from="1" to="4" step="1"/>  
+  <selectFromSequence name="a" from="-2.5" to="2.5" step="1" exclude="0"/>
+  <selectFromSequence name="b" from="1.2" to="4.2" step="1"/>  
 
   <math name="ABSb"><abs>$b</abs></math>
   
@@ -59,7 +59,7 @@
    
 <!--   <p>Note that <m>r(x) = <math>$r</math> </m>, <m>r'(x) = <math> $rP</math></m>, <m>s(x) = <math>$s</math></m>, <m>s'(x) = <math>$sP</math></m>.</p> -->
    
-   <p>Estimate each of the following values of <m>r'(x)</m> and <m>s'(x)</m>. </p>
+   <p>Use central differences appropriately to generate the best estimate you can for each of the following values of <m>r'(x)</m> and <m>s'(x)</m>. </p>
    <ol marker="a.">
     <li>
       <p> <m>r'(<math simplify>$a+0.25*$ABSb</math>) \approx </m>
@@ -71,7 +71,7 @@
         <answer><mathInput name="ans1"/>
           <award allowedErrorInNumbers="0.05"> 
             <when>
-              $ans1 = $d1 or $ans1 = $d2 or $ans1 = $d3
+              $ans1 = $d3 <!-- or $ans1 = $d1 or $ans1 = $d2 -->
             </when>
           </award>
         </answer>
@@ -91,7 +91,7 @@
         <answer><mathInput name="ans2"/>
           <award allowedErrorInNumbers="0.05"> 
             <when>
-              $ans2 = $e1 or $ans2 = $e2 or $ans2 = $e3
+              <!-- $ans2 = $e1 or $ans2 = $e2 or --> $ans2 = $e3
             </when>
           </award>
         </answer>
