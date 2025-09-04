@@ -25,7 +25,7 @@
 </exercise> 
 
 <exercise xml:id="ez-1-2-doenet-2">
-  <title>**TITLE**</title>
+  <title>Matching a limit to one or more graphs</title>
      <interactive xml:id="doenet-interactive-exercise-1-2-2" platform="doenetml">
       <slate surface="doenetml">
         <xi:include href="doenet/ez-1-2-D-2.doenetml" parse="text"/>
@@ -34,7 +34,7 @@
 </exercise> 
 
 <exercise xml:id="ez-1-2-doenet-3">
-  <title>**TITLE**</title>
+  <title>Matching a function formula and its limit to one or more graphs</title>
      <interactive xml:id="doenet-interactive-exercise-1-2-3" platform="doenetml">
       <slate surface="doenetml">
         <xi:include href="doenet/ez-1-2-D-3.doenetml" parse="text"/>
