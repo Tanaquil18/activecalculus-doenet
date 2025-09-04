@@ -68,6 +68,15 @@
     </interactive>  
 </exercise>
 
+<exercise xml:id="ez-1-5-doenet-7">
+  <title>Estimating the rate of change of an investment</title>
+     <interactive xml:id="doenet-interactive-exercise-1-5-7" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-5-D-7.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="caK">
     <statement>
       <p permid="cYZ">
