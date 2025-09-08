@@ -13,34 +13,71 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
  
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-6" component="static runestone">
-  <exercise label="Library__Michigan__Chap2Sec5__Q01.pg">
-    <webwork source="Library/Michigan/Chap2Sec5/Q01.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec5__Q21.pg">
-    <webwork source="Library/Michigan/Chap2Sec5/Q21.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec5__Q13.pg">
-    <webwork source="Library/Michigan/Chap2Sec5/Q13.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec5__Q16.pg">
-    <webwork source="Library/Michigan/Chap2Sec5/Q16.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec5__Q19.pg">
-    <webwork source="Library/Michigan/Chap2Sec5/Q19.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec5__Q03.pg">
-    <webwork source="Library/Michigan/Chap2Sec5/Q03.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec5__Q15.pg">
-    <webwork source="csafranski/1.6HW_prob7.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setDerivatives1__nsc2s10p1_mo.pg">
-    <webwork source="Library/Rochester/setDerivatives1/nsc2s10p1_mo.pg"/>
-  </exercise>
-  <exercise label="csafranski__1.6HW_prob9.pg">
-    <webwork source="csafranski/1.6HW_prob9.pg"/>
-  </exercise>
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-6" component="doenet">
+
+<exercise xml:id="ez-1-6-doenet-1">
+  <title>Interpreting signs of three functions and their first two derivatives at different points using a graph</title>
+     <interactive xml:id="doenet-interactive-exercise-1-6-1" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-6-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-6-doenet-2">
+  <title>Interpreting signs of two functions and their first two derivatives at different points using a graph</title>
+     <interactive xml:id="doenet-interactive-exercise-1-6-2" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-6-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-6-doenet-3">
+  <title>Graphing the first and second derivatives of a cubic function</title>
+     <interactive xml:id="doenet-interactive-exercise-1-6-3" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-6-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-6-doenet-4">
+  <title>Identifying the first and second derivatives of a given graph</title>
+     <interactive xml:id="doenet-interactive-exercise-1-6-4" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-6-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-6-doenet-5">
+  <title>Interpreting information about the value of a car based on function and derivative data</title>
+     <interactive xml:id="doenet-interactive-exercise-1-6-5" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-6-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-6-doenet-6">
+  <title>Interpreting information about the amount of water in a tank based on function and derivative data</title>
+     <interactive xml:id="doenet-interactive-exercise-1-6-6" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-6-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-6-doenet-7">
+  <title>Estimating and interpreting first and second derivative values of a temperature function</title>
+     <interactive xml:id="doenet-interactive-exercise-1-6-7" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-6-D-7.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="Awq">
     <statement>
       <p permid="BuF">
