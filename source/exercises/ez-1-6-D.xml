@@ -78,6 +78,15 @@
     </interactive>  
 </exercise>
 
+<exercise xml:id="ez-1-6-doenet-8">
+  <title>Studying the second derivative of the position of a falling object</title>
+     <interactive xml:id="doenet-interactive-exercise-1-6-8" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-6-D-8.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="Awq">
     <statement>
       <p permid="BuF">
