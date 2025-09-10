@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2025                                                   -->
+<!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -13,31 +13,62 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-7" component="static runestone">
-  <exercise label="Library__ASU-topics__setLimitConcepts__3-2-36.pg">
-    <webwork source="csafranski/1.7HW_prob1.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap1Sec8__Q21.pg">
-    <webwork source="Library/Michigan/Chap1Sec8/Q21.pg"/>
-  </exercise>
-  <exercise label="Library__UMN__calculusStewartCCC__s_2_4_3.pg">
-    <webwork source="csafranski/1.7HW_prob3.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap2Sec6__Q02.pg">
-    <webwork source="Library/Michigan/Chap2Sec6/Q02.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap1Sec7__Q19.pg">
-    <webwork source="Library/Michigan/Chap1Sec7/Q19.pg"/>
-  </exercise>
-  <exercise label="Library__UBC__setContinuity__graphs.pg">
-    <webwork source="Library/UBC/setContinuity/graphs.pg"/>
-  </exercise>
-  <!-- Uses EV2; not supported by PTX -->
-  <!--
-  <exercise label="Library__UVA-Stew5e__setUVA-Stew5e-C02S03-CalcLimits__2-3-18a" xml:id="ez-1-7-WW5">
-    <webwork source="Library/UVA-Stew5e/setUVA-Stew5e-C02S03-CalcLimits/2-3-18a.pg" />
-  </exercise>
-  -->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-7-D" component="doenet">
+
+<exercise xml:id="ez-1-7-doenet-1">
+  <title>Evaluating limits and deciding continuity based on a graph</title>
+     <interactive xml:id="doenet-interactive-exercise-1-7-1" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-7-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-7-doenet-2">
+  <title>Constructing a piecewise linear function with certain properties</title>
+     <interactive xml:id="doenet-interactive-exercise-1-7-2" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-7-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-7-doenet-3">
+  <title>Identifying which graphs have certain limit properties</title>
+     <interactive xml:id="doenet-interactive-exercise-1-7-3" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-7-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-7-doenet-4">
+  <title>Identifying where a piecewise function lacks a limit, is not continuous, and is not differentiable</title>
+     <interactive xml:id="doenet-interactive-exercise-1-7-4" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-7-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-7-doenet-5">
+  <title>Investigating a function with a hole in its graph</title>
+     <interactive xml:id="doenet-interactive-exercise-1-7-5" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-7-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-1-7-doenet-6">
+  <title>Investigating a piecewise linear function</title>
+     <interactive xml:id="doenet-interactive-exercise-1-7-6" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-1-7-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="lgo">
     <statement>
       <p permid="FXu">
