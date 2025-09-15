@@ -13,20 +13,45 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-2-2" component="static runestone">
-  <exercise label="Library__Rochester__setDerivatives4Trig__s2_4_21a.pg">
-    <webwork source="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg"/>
-  </exercise>
-  <exercise label="Library__NAU__setCalcI__trigTanLines.pg">
-    <webwork source="Library/NAU/setCalcI/trigTanLines.pg"/>
-  </exercise>
-  <!-- <exercise label="Library__UCSB__Stewart5_3_4__Stewart5_3_4_31__Stewart5_3_4_31.pg">
-    <webwork source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_31/Stewart5_3_4_31.pg"/>
-  </exercise> -->
-  <exercise label="Library__UCSB__Stewart5_3_4__Stewart5_3_4_29.pg">
-    <webwork source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_29.pg"/>
-  </exercise>
-  <title>Exercises</title>
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-2-2" component="doenet">
+  
+<exercise xml:id="ez-2-2-doenet-1">
+  <title>Using shortcut rules to find derivative formulas</title>
+     <interactive xml:id="doenet-interactive-exercise-2-2-1" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-2-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
+<exercise xml:id="ez-2-2-doenet-4">
+  <title>Finding the tangent line approximation to a trigonometric function</title>
+     <interactive xml:id="doenet-interactive-exercise-2-2-4" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-2-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>   
+
+<exercise xml:id="ez-2-2-doenet-5">
+  <title>Finding where a function has a horizontal tangent line</title>
+     <interactive xml:id="doenet-interactive-exercise-2-2-5" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-2-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>   
+
+<exercise xml:id="ez-2-2-doenet-3">
+  <title>Finding patterns in higher order derivatives</title>
+     <interactive xml:id="doenet-interactive-exercise-2-2-3" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-2-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+  
+
   <exercise permid="JnM">
     <statement>
       <p permid="GHB">

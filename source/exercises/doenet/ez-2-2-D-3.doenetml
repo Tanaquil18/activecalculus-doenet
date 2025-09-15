@@ -1,0 +1,205 @@
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2025                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<setup>
+  <function name="f">sin(x)</function>
+  <function name="f1P">cos(x)</function>
+  <function name="f2P">-sin(x)</function>
+  <function name="f3P">-cos(x)</function>
+  <function name="g">cos(x)</function>
+  <function name="g1P">-sin(x)</function>
+  <function name="g2P">-cos(x)</function>
+  <function name="g3P">sin(x)</function>
+  <function name="h">exp(x)</function>
+
+  <selectFromSequence name = "num1" from = "27" to = "32" step = "1"/>
+  <selectFromSequence name = "k" from = "51" to = "75" step = "1"/>
+  <number name="j">$k+3</number>
+</setup>
+
+<p>
+  Three of the most important functions in mathematics are <m>\sin(x)</m>, <m>\cos(x)</m>, and <m>e^x</m>.  The two trigonometric functions are useful in modeling periodic phenomena such as sound waves, and the natural exponential function finds many different applications related to growth and decay.  These functions each also have the property that they are <em>infinitely differentiable</em>; this means that we can take as many derivatives of each as we'd like.
+</p> 
+
+<p>
+  In Section 1.6, we learned about the <em>second</em> derivative of a function: <m>f''(x)=\frac{d}{dx}[f'(x)]</m>.  In the same way, we can talk about the third, fourth, or even <m>n^{\text{th}}</m> derivative of a function.  For instance, <m>f'''(x)=\frac{d}{dx}[f''(x)]</m>, and <m>f^{(4)}(x)=\frac{d}{dx}[f'''(x)]</m> (after the third derivative, rather than writing a long list of <q>primes</q>, we instead write <q>(<m>n</m>)</q> to represent the number of the derivative we seek).
+</p>  
+
+<p>
+  
+  <ol marker="a.">
+    <li>
+      <p>
+        Fill in the following blanks to state formulas for the first <m>8</m> derivatives of <m>h(x) = e^x</m>.
+      </p>  
+      <p>
+        <tabular>
+          <row>
+            <cell>
+              <m>h(x) = e^x</m>
+            </cell> 
+            <cell>
+              <m>h'(x) = </m><answer><award>$h</award></answer>
+            </cell>     
+            <cell>
+              <m>h''(x) = </m><answer><award>$h</award></answer>
+            </cell>    
+          </row>  
+          <row>
+            <cell>
+              <m>h'''(x) = </m><answer><award>$h</award></answer>
+            </cell> 
+            <cell>
+              <m>h^{(4)}(x) = </m><answer><award>$h</award></answer>
+            </cell>     
+            <cell>
+              <m>h^{(5)}(x) = </m><answer><award>$h</award></answer>
+            </cell>    
+          </row>  
+          <row> 
+            <cell>
+              <m>h^{(6)}(x) = </m><answer><award>$h</award></answer>
+            </cell>    
+            <cell>
+              <m>h^{(7)}(x) = </m><answer><award>$h</award></answer>
+            </cell>    
+            <cell>
+              <m>h^{(8)}(x) = </m><answer><award>$h</award></answer>
+            </cell>    
+          </row> 
+        </tabular>  
+      </p>
+      <p>
+        In addition, <m>h^{($num1)}(x) = </m><answer><award>$h</award></answer>.
+      </p>  
+    </li> 
+    <li>
+      <p>
+        Fill in the following blanks to state formulas for the first <m>8</m> derivatives of <m>f(x) = \sin(x)</m>.
+      </p>  
+      <p>
+        <tabular>
+          <row>
+            <cell>
+              <m>f(x) = \sin(x)</m>
+            </cell> 
+            <cell>
+              <m>f'(x) = </m><answer><award>$f1P</award></answer>
+            </cell>     
+            <cell>
+              <m>f''(x) = </m><answer><award>$f2P</award></answer>
+            </cell>    
+          </row>  
+          <row>
+            <cell>
+              <m>f'''(x) = </m><answer><award>$f3P</award></answer>
+            </cell> 
+            <cell>
+              <m>f^{(4)}(x) = </m><answer><award>$f</award></answer>
+            </cell>     
+            <cell>
+              <m>f^{(5)}(x) = </m><answer><award>$f1P</award></answer>
+            </cell>    
+          </row>  
+          <row> 
+            <cell>
+              <m>f^{(6)}(x) = </m><answer><award>$f2P</award></answer>
+            </cell>    
+            <cell>
+              <m>f^{(7)}(x) = </m><answer><award>$f3P</award></answer>
+            </cell>    
+            <cell>
+              <m>f^{(8)}(x) = </m><answer><award>$f</award></answer>
+            </cell>    
+          </row> 
+        </tabular>  
+      </p>
+      <p>
+        In addition, <m>f^{($k)}(x) = </m>
+              <answer>
+                <mathInput name="fderivak"/>
+                  <award>
+                    <when>(<mod>$k 4</mod> = 1 and $fderivak = $f1P) or (<mod>$k 4</mod> = 2 and $fderivak = $f2P) or (<mod>$k 4</mod> = 3 and $fderivak = $f3P) or (<mod>$k 4</mod> = 0 and $fderivak = $f)</when>
+                  </award>
+              </answer>
+
+      </p>  
+<!--      
+      <p>
+        Testing:  <m>k = $k</m>, <mod>$k 4</mod>
+      </p>
+-->      
+    </li>     
+    <li>
+      <p>
+        Fill in the following blanks to state formulas for the first <m>8</m> derivatives of <m>g(x) = \cos(x)</m>.
+      </p>  
+      <p>
+        <tabular>
+          <row>
+            <cell>
+              <m>g(x) = \cos(x)</m>
+            </cell> 
+            <cell>
+              <m>g'(x) = </m><answer><award>$g1P</award></answer>
+            </cell>     
+            <cell>
+              <m>g''(x) = </m><answer><award>$g2P</award></answer>
+            </cell>    
+          </row>  
+          <row>
+            <cell>
+              <m>g'''(x) = </m><answer><award>$g3P</award></answer>
+            </cell> 
+            <cell>
+              <m>g^{(4)}(x) = </m><answer><award>$g</award></answer>
+            </cell>     
+            <cell>
+              <m>g^{(5)}(x) = </m><answer><award>$g1P</award></answer>
+            </cell>    
+          </row>  
+          <row> 
+            <cell>
+              <m>g^{(6)}(x) = </m><answer><award>$g2P</award></answer>
+            </cell>    
+            <cell>
+              <m>g^{(7)}(x) = </m><answer><award>$g3P</award></answer>
+            </cell>    
+            <cell>
+              <m>g^{(8)}(x) = </m><answer><award>$g</award></answer>
+            </cell>    
+          </row> 
+        </tabular>  
+      </p>
+       
+      <p>
+        In addition, <m>g^{($j)}(x) = </m>
+              <answer>
+                <mathInput name="gjderiv"/>
+                  <award>
+                    <when>(<mod>$j 4</mod> = 1 and $gjderik = $g1P) or (<mod>$j 4</mod> = 2 and $gjderiv = $g2P) or (<mod>$j 4</mod> = 3 and $gjderiv = $g3P) or (<mod>$j 4</mod> = 0 and $gjderiv = $g</when>
+                  </award>
+              </answer>        
+      </p>
+
+      <!--
+      <p>
+        Testing:  <m>j = $j</m>, <mod>$j 4</mod>, <m>g(x)=$g</m>, <m>g'(x)=$g1P</m>, <m>g''(x)=$g2P</m>, <m>g'''(x)=$g3P</m>, $gjderiv
+      </p>
+      -->
+      
+    </li>     
+  </ol>  
+
+</p>  
