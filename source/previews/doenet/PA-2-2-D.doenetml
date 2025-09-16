@@ -13,6 +13,8 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
+<!-- this preview was primarily authored by Steven Clontz at the 2023 Doenet workshop -->
+
 <p>
     Consider the graph of the function <m>g(x) = 2^x</m>.  Our goal is to understand why it's reasonable to say that <m>g'(x) = 2^x \ln(2)</m>.
 </p>
