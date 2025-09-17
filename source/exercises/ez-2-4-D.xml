@@ -13,35 +13,53 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-2-4" component="static runestone">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-2-4-D" component="doenet">
   
-  <exercise label="Library__AlfredUniv__anton8e__chapter3__3.5__prob3.pg">
-    <webwork source="Library/AlfredUniv/anton8e/chapter3/3.5/prob3.pg"/>
-  </exercise>
-  <exercise label="Library__UVA-Stew5e__setUVA-Stew5e-C03S04-DerivsTrig__3-4-23.pg">
-    <webwork source="Library/UVA-Stew5e/setUVA-Stew5e-C03S04-DerivsTrig/3-4-23.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap3Sec5__Q29.pg">
-    <webwork source="Library/Michigan/Chap3Sec5/Q29.pg"/>
-  </exercise>
-  <exercise label="Library__UMN__calculusStewartCCC__s_3_3_8.pg">
-    <webwork source="Library/UMN/calculusStewartCCC/s_3_3_8.pg"/>
-  </exercise>
-  <exercise label="Library__UMN__calculusStewartCCC__s_3_3_14.pg">
-    <webwork source="Library/UMN/calculusStewartCCC/s_3_3_14.pg"/>
-  </exercise>
-  <exercise label="Library__UVA-Stew5e__setUVA-Stew5e-C03S04-DerivsTrig__3-4-13.pg">
-    <webwork source="csafranski/2.4HW_prob6.pg"/>
-  </exercise>
-  <exercise label="Library__Wiley__setAnton_Section_2.5__Anton2_5Q20.pg">
-    <webwork source="Library/Wiley/setAnton_Section_2.5/Anton2_5Q20.pg"/>
-  </exercise>
-  <!-- Not compatible with PTX -->
-  <!--
-  <exercise label="Library__Rochester__setDerivatives4Trig__s2_4_20a" xml:id="ez-2-4-WW2">
-    <webwork source="Library/Rochester/setDerivatives4Trig/s2_4_20a.pg" />
-  </exercise>
-  -->
+<exercise xml:id="ez-2-4-doenet-1">
+  <title>Applying various derivative rules to trigonometric functions</title>
+     <interactive xml:id="doenet-interactive-exercise-2-4-1" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-4-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-4-doenet-1a">
+  <title>More derivatives involving trigonometric functions</title>
+     <interactive xml:id="doenet-interactive-exercise-2-4-1a" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-4-D-1a.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-4-doenet-2">
+  <title>Finding a tangent line to a trigonometric function</title>
+     <interactive xml:id="doenet-interactive-exercise-2-4-2" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-4-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-4-doenet-3">
+  <title>Finding and analyzing the second derivatives of the tangent and cotangent functions</title>
+     <interactive xml:id="doenet-interactive-exercise-2-4-3" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-4-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-4-doenet-4">
+  <title>Finding the derivative of a trigonometric function in two different ways</title>
+     <interactive xml:id="doenet-interactive-exercise-2-4-4" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-4-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="lgO">
     <statement>
       <p permid="vUo">

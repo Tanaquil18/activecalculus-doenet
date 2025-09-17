@@ -105,9 +105,12 @@
     </p>
 
     <xi:include href="./previews/PA-2-4-WW.xml" />
+    <xi:include href="./previews/PA-2-4-D.xml" />
     <xi:include href="./previews/PA-2-4.xml" />
   </subsection>
+
   <xi:include href="./proteus/proteus-2-4.xml" />
+
   <subsection>
     <title>Derivatives of the cotangent, secant, and cosecant functions</title>
     <idx><h>cotangent</h></idx>
@@ -240,4 +243,6 @@
   </subsection>
 
   <xi:include href="./exercises/ez-2-4.xml"/>
+  <xi:include href="./exercises/ez-2-4-D.xml"/>
+  
 </section>
