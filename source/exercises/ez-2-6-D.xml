@@ -13,32 +13,54 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-2-6" component="static runestone">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-2-6" component="doenet">
   
-  <exercise label="Library__Michigan__Chap3Sec6__Q51.pg">
-    <webwork source="Library/Michigan/Chap3Sec6/Q51.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap3Sec6__Q01.pg">
-    <webwork source="Library/Michigan/Chap3Sec6/Q01.pg"/>
-  </exercise>
-  <exercise label="csafranski__2.6HW_prob3.pg">
-    <webwork source="csafranski/2.6HW_prob3.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setDerivatives6InverseTrig__sc3_6_26.pg">
-    <webwork source="Library/Rochester/setDerivatives6InverseTrig/sc3_6_26.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setDerivatives1__osu_dr_1_11.pg">
-    <webwork source="Library/Rochester/setDerivatives1/osu_dr_1_11.pg"/>
-  </exercise>
-  <exercise label="Library__UCSB__Stewart5_3_6__Stewart5_3_6_68.pg">
-    <webwork source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_68.pg"/>
-  </exercise>
-  <!-- Uses EV2, not compatible with PTX -->
-  <!--
-  <exercise label="Library__Rochester__setDerivatives7Log__mec4" xml:id="ez-2-6-WW9">
-    <webwork source="Library/Rochester/setDerivatives7Log/mec4.pg" />
-  </exercise>
-  -->
+<exercise xml:id="ez-2-6-doenet-1">
+  <title>Derivatives involving the natural logarithm and inverse trigonometric functions</title>
+     <interactive xml:id="doenet-interactive-exercise-2-6-1" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-6-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-6-doenet-2">
+  <title>Exploring slopes to an exponential function and its inverse</title>
+     <interactive xml:id="doenet-interactive-exercise-2-6-2" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-6-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-6-doenet-3">
+  <title>Some key relationships between the natural logarithm and natural exponential function</title>
+     <interactive xml:id="doenet-interactive-exercise-2-6-3" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-6-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-6-doenet-4">
+  <title>Reasoning graphically to find a derivative value of a function and of its inverse</title>
+     <interactive xml:id="doenet-interactive-exercise-2-6-4" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-6-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-6-doenet-5">
+  <title>Finding a derivative value of the inverse function</title>
+     <interactive xml:id="doenet-interactive-exercise-2-6-5" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-6-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+
 
   <exercise xml:id="ez-2-6-Ez4" permid="fyT">
     <statement>
