@@ -24,6 +24,15 @@
     </interactive>  
 </exercise>
 
+<exercise xml:id="ez-2-6-doenet-1a">
+  <title>More derivatives involving the natural logarithm and inverse trigonometric functions</title>
+     <interactive xml:id="doenet-interactive-exercise-2-6-1a" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-6-D-1a.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
 <exercise xml:id="ez-2-6-doenet-2">
   <title>Exploring slopes to an exponential function and its inverse</title>
      <interactive xml:id="doenet-interactive-exercise-2-6-2" platform="doenetml">
