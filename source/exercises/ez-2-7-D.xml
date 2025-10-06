@@ -13,42 +13,62 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-2-7" component="static runestone">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-2-7" component="doenet">
 
-  <exercise label="Library__Michigan__Chap3Sec7__Q07.pg">
-    <webwork source="Library/Michigan/Chap3Sec7/Q07.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap3Sec7__Q21.pg">
-    <webwork source="Library/Michigan/Chap3Sec7/Q21.pg"/>
-  </exercise>
-  <exercise label="Library__UCSB__Stewart5_3_6__Stewart5_3_6_16.pg">
-    <webwork source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_16.pg"/>
-  </exercise>
-  <exercise label="Library__UCSB__Stewart5_3_6__Stewart5_3_6_15.pg">
-    <webwork source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_15.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap3Sec7__Q11.pg">
-    <webwork source="Library/Michigan/Chap3Sec7/Q11.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap3Sec7__Q15.pg">
-    <webwork source="Library/Michigan/Chap3Sec7/Q15.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap3Sec7__Q29.pg">
-    <webwork source="Library/Michigan/Chap3Sec7/Q29.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap3Sec7__Q25.pg">
-    <webwork source="Library/Michigan/Chap3Sec7/Q25.pg"/>
-  </exercise>
-  <exercise label="csafranski__2.7HW_prob9.pg">
-    <webwork source="csafranski/2.7HW_prob9.pg"/>
-  </exercise>
-  <exercise label="Library__UCSB__Stewart5_3_6__Stewart5_3_6_27__Stewart5_3_6_27.pg">
-        <webwork source="csafranski/2.7HW_prob10.pg"/>
-  </exercise>
-  <exercise label="Library__UMN__calculusStewartCCC__s_3_5_28.pg">
-    <webwork source="csafranski/2.7HW_prob11.pg"/>
-  </exercise>
+<exercise xml:id="ez-2-7-doenet-0">
+  <title>Implicitly differentiating algebraic expressions involving <m>x</m> and <m>y</m> </title>
+     <interactive xml:id="doenet-interactive-exercise-2-7-0" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-7-D-0.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-7-doenet-1">
+  <title>Practicing the algebraic structure of using implicit differentiation to find <m>\frac{dy}{dx}</m> </title>
+     <interactive xml:id="doenet-interactive-exercise-2-7-1" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-7-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
   
+<exercise xml:id="ez-2-7-doenet-2">
+  <title>More practice with the algebraic structure of using implicit differentiation to find <m>\frac{dy}{dx}</m> </title>
+     <interactive xml:id="doenet-interactive-exercise-2-7-2" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-7-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-7-doenet-3">
+  <title>Still more practice with the algebraic structure of using implicit differentiation to find <m>\frac{dy}{dx}</m> </title>
+     <interactive xml:id="doenet-interactive-exercise-2-7-3" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-7-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-7-doenet-4">
+  <title>Using implicit differentiation to find <m>\frac{dy}{dx}</m> </title>
+     <interactive xml:id="doenet-interactive-exercise-2-7-4" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-7-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-2-7-doenet-5">
+  <title>Finding a tangent line to an implicitly defined curve </title>
+     <interactive xml:id="doenet-interactive-exercise-2-7-5" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-7-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="imv">
     <statement>
       <p permid="gbJ">

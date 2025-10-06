@@ -97,8 +97,10 @@
     </p>
 
     <xi:include href="./previews/PA-2-7-WW.xml" />
+    <xi:include href="./previews/PA-2-7-D.xml" />    
     <xi:include href="./previews/PA-2-7.xml" />
   </subsection>
+
   <xi:include href="./proteus/proteus-2-7.xml" />
 
   <subsection>
@@ -373,4 +375,5 @@
   </subsection>
 
   <xi:include href="./exercises/ez-2-7.xml"/>
+  <xi:include href="./exercises/ez-2-7-D.xml"/>
 </section>
