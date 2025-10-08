@@ -69,6 +69,15 @@
     </interactive>  
 </exercise>
 
+<exercise xml:id="ez-2-7-doenet-6">
+  <title>Finding a tangent line to another implicitly defined curve </title>
+     <interactive xml:id="doenet-interactive-exercise-2-7-6" platform="doenetml">
+      <slate surface="doenetml">
+        <xi:include href="doenet/ez-2-7-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="imv">
     <statement>
       <p permid="gbJ">

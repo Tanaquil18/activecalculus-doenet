@@ -11,20 +11,22 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-
+ 
 <!-- part of this exercise was first drafted by Weidai Sun in 2024 -->
 
 <setup>
-  <selectFromSequence name="s1" from = "3" to = "6" step = "1"/>
-  <selectFromSequence name="s2" from = "2" to = "9" step = "1" exclude="$s1"/>
-  <selectFromSequence name="s3" from = "10" to = "16" step = "1"/>
-  <selectFromSequence name="s4" from = "2" to = "4" step = "1" exclude="$s1"/>
-  <selectFromSequence name="x1" from = "2" to = "5" step = "1"/>
-  <selectFromSequence name="y1" from = "2" to = "5" step = "1" exclude="$x1"/>
+  <selectFromSequence name="a" from = "2" to = "6" step = "1"/>
+  <selectFromSequence name="b" from = "2" to = "9" step = "1" exclude="$s1"/>
+  <selectFromSequence name="c" from = "10" to = "16" step = "1"/>
+  <selectFromSequence name="d" from = "2" to = "4" step = "1" exclude="$s1"/>
+  <selectFromSequence name="x1" from = "1" to = "4" step = "1"/>
+  <selectFromSequence name="y1" from = "1" to = "4" step = "1" exclude="$x1"/>
+  <number name="k">$a*$x1*$y1^$b + $c*$x1^$d*$y1</number>
 </setup>
   
 <p> Consider the curve given by the equation
-  <me>x^$s1 + $s2 xy + y^$s4 = <math simplify>$x1^$s1 + $s2*$x1*$y1 + $y1^$s4</math>.</me>
+  
+  <me>$a xy^$b + $c x^$d y = $k.</me>
 </p>
 
 <p>
@@ -37,7 +39,7 @@
                 <m> \frac{dy}{dx}= </m> 
                     <mathInput name="ans1"></mathInput>
                     <answer><award><when>
-                        $ans1 = (-$s2*y - $s1*x^($s1-1))/($s2*x + $s4*y^($s4-1))
+                        $ans1 = (-$a*y^$b - $c*$d*x^($d-1)*y)/($a*x*$b*y^($b-1) + $c*x^$d)
                     </when></award></answer>
             </p>
     </li>  
@@ -49,7 +51,7 @@
                 <m> m = </m> 
                     <mathInput name="ans2"></mathInput>
                     <answer allowedErrorInNumbers="0.01" allowedErrorIsAbsolute><award><when>
-                        $ans2 = (-$s2*$y1 - $s1*$x1^($s1-1))/($s2*$x1 + $s4*$y1^($s4-1))
+                        $ans2 = (-$a*$y1^$b - $c*$d*$x1^($d-1)*$y1)/($a*$x1*$b*$y1^($b-1) + $c*$x1^$d)
                     </when></award></answer>
             </p>
     </li> 
@@ -61,7 +63,7 @@
                 The line's equation is <m>y = </m>
                     <mathInput name="ans3"></mathInput>
                     <answer allowedErrorInNumbers="0.01" allowedErrorIsAbsolute><award><when>
-                        $ans3 = $y1 + (-$s2*$y1 - $s1*$x1^($s1-1))/($s2*$x1 + $s4*$y1^($s4-1))*(x-$x1)
+                        $ans3 = $y1 + (-$a*$y1^$b - $c*$d*$x1^($d-1)*$y1)/($a*$x1*$b*$y1^($b-1) + $c*$x1^$d)*(x-$x1)
                     </when></award></answer>
             </p>
     </li>     
