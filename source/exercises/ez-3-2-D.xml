@@ -13,39 +13,61 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-2-8" component="static runestone">
-  <exercise label="Library__Michigan__Chap4Sec7__Q07.pg">
-    <webwork source="Library/Michigan/Chap4Sec7/Q07.pg"/>
-  </exercise>
-  <exercise label="Library__ma122DB__set8__s4_4_13.pg">
-    <webwork source="Library/ma122DB/set8/s4_4_13.pg"/>
-  </exercise>
-  <exercise label="Library__UMN__calculusStewartCCC__s_4_5_28.pg">
-    <webwork source="Library/UMN/calculusStewartCCC/s_4_5_28.pg"/>
-  </exercise>
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-2-8" component="doenet">
 
-  <exercise label="Library__Michigan__Chap4Sec7__Q15.pg">
-    <webwork source="Library/Michigan/Chap4Sec7/Q15.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap4Sec7__Q01.pg">
-    <webwork source="Library/Michigan/Chap4Sec7/Q01.pg"/>
-  </exercise>  
+<exercise xml:id="ez-3-2-doenet-1">
+  <title>Applying L'Hopital's Rule in a graphical setting to linear functions</title>
+     <interactive xml:id="doenet-interactive-exercise-3-2-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-2-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
 
-  <exercise label="Library__UMN__calculusStewartCCC__s_4_5_14.pg">
-    <webwork source="Library/UMN/calculusStewartCCC/s_4_5_14.pg"/>
-  </exercise>
-  <exercise label="Library__UMN__calculusStewartCCC__s_4_5_73.pg">
-    <webwork source="Library/UMN/calculusStewartCCC/s_4_5_73.pg"/>
-  </exercise>
-  <exercise label="Library__UVA-Stew5e__setUVA-Stew5e-C02S06-InfLimits__2-6-17.pg">
-    <webwork source="csafranski/2.8HW_prob6.pg"/>
-  </exercise>
-  <exercise label="Library__UCSB__Stewart5_2_6__Stewart5_2_6_54.pg">
-    <webwork source="Library/UCSB/Stewart5_2_6/Stewart5_2_6_54.pg"/>
-  </exercise>
-  <exercise label="Library__ma122DB__set2__s2_6_21.pg">
-    <webwork source="Library/ma122DB/set2/s2_6_21.pg"/>
-  </exercise>
+<exercise xml:id="ez-3-2-doenet-2">
+  <title>Applying L'Hopital's Rule in a graphical setting to quadratic functions</title>
+     <interactive xml:id="doenet-interactive-exercise-3-2-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-2-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-3-2-doenet-3">
+  <title>Evaluating limits of ratios of quadratic functions</title>
+     <interactive xml:id="doenet-interactive-exercise-3-2-3" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-2-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-3-2-doenet-4">
+  <title>Evaluating limits of ratios that involve trigonometric functions</title>
+     <interactive xml:id="doenet-interactive-exercise-3-2-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-2-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-3-2-doenet-5">
+  <title>Evaluating limits of rational functions as <m>x \to \pm \infty</m></title>
+     <interactive xml:id="doenet-interactive-exercise-3-2-5" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-2-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-3-2-doenet-6">
+  <title>Evaluating limits involving <m>\pm \infty</m></title>
+     <interactive xml:id="doenet-interactive-exercise-3-2-6" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-2-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
 
   <!-- Uses EV2 so not compatible with PTX -->
   <!--
