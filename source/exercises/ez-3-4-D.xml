@@ -13,31 +13,62 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-3-2" component="static runestone">
-  <exercise label="Library__Valdosta__APEX_Calculus__3.5__APEX_3.5_26.pg">
-    <webwork source="Library/Valdosta/APEX_Calculus/3.5/APEX_3.5_26.pg"/>
-  </exercise>
-  <exercise label="Library__Valdosta__APEX_Calculus__3.5__APEX_3.5_28.pg">
-    <webwork source="Library/Valdosta/APEX_Calculus/3.5/APEX_3.5_28.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap4Sec2__Q17.pg">
-    <webwork source="Library/Michigan/Chap4Sec2/Q17.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap4Sec2__Q27.pg">
-    <webwork source="Library/Michigan/Chap4Sec2/Q27.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap4Sec1__Q29.pg">
-    <webwork source="Library/Michigan/Chap4Sec1/Q29.pg"/>
-  </exercise>
-  <!--  These WeBWorK problems do not exist in the OPL -->
-  <!--
-  <exercise label="Library__Michigan__Chap4Sec3__Q17" xml:id="ez-3-2-WW3">
-    <webwork source="Library/Michigan/Chap4Sec3/Q17.pg" />
-  </exercise>
-  <exercise label="Library__Michigan__Chap4Sec3__Q27" xml:id="ez-3-2-WW4">
-    <webwork source="Library/Michigan/Chap4Sec3/Q27.pg" />
-  </exercise>
-  -->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-3-2" component="doenet">
+  
+<exercise xml:id="ez-3-4-doenet-1">
+  <title>Analyzing a quadratic function that depends on two parameters</title>
+     <interactive xml:id="doenet-interactive-exercise-3-4-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-4-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-3-4-doenet-1a">
+  <title>Analyzing a cubic function that depends on one parameter</title>
+     <interactive xml:id="doenet-interactive-exercise-3-4-1a" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-4-D-1a.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-3-4-doenet-2">
+  <title>Analyzing a quartic function that depends on two parameters</title>
+     <interactive xml:id="doenet-interactive-exercise-3-4-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-4-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-3-4-doenet-3">
+  <title>Analyzing a rational function that depends on two parameters</title>
+     <interactive xml:id="doenet-interactive-exercise-3-4-3" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-4-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-3-4-doenet-4">
+  <title>Analyzing a function that depends on two parameters</title>
+     <interactive xml:id="doenet-interactive-exercise-3-4-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-4-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-3-4-doenet-5">
+  <title>Analyzing how a patient responds to a certain drug</title>
+     <interactive xml:id="doenet-interactive-exercise-3-4-5" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-4-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="uWz">
     <statement>
       <p permid="pvI">
