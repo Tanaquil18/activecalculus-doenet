@@ -12,7 +12,6 @@
       xsl="acs-html.xsl" 
       publication="publication-proteus.ptx" 
       platform="runestone" 
-      deploy-dir="proteus"
     />
     <target
       name="doenet"
