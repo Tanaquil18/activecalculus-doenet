@@ -15,7 +15,7 @@
 <setup>
 
   <selectFromSequence name = "p" from = "-2" to = "0" step = "1" exclude="0"/>
-  <selectFromSequence name = "q" from = "2" to = "4" step = "1"/>
+  <selectFromSequence name = "q" from = "2" to = "4" step = "1" exclude="abs($p)"/>
     
   <selectFromSequence name = "m1" from = "-0.75" to = "0.75" step = "0.25" exclude="-0.25 0 0.25"/>
   <selectFromSequence name = "x1" from = "-2" to = "2" step = "1" exclude="0"/>
@@ -47,7 +47,7 @@
       </graph>
 
 <p>
-  Consider the function <m>f</m> on the interval <m>[$p,$q]</m>. Reasoning grahically, use calculus to find the exact absolute minimum and absolute maximum of <m>f</m> on this interval.
+  Consider the function <m>f</m> on the interval <m>[$p,$q]</m>. Reasoning graphically, use calculus to find the exact absolute minimum and absolute maximum of <m>f</m> on this interval.
 </p>  
 
 <p>
@@ -57,12 +57,12 @@
         Find all critical numbers of <m>f</m>.  If there is more than one critical number, enter them as a list separated by commas.  If there are none, enter <em>none</em>.
       </p>
       <p>
-        The exact critical numbers of <m>f</m> are: <m>x=</m> <answer> $crNum</answer>
+        The critical numbers of <m>f</m> are: <m>x=</m> <answer> $crNum</answer>
       </p>  
     </li>
     <li>
       <p>
-        The exact value of the function at each of the respective endpoints of the interval are:
+        The exact values of the function at the respective endpoints of the interval are:
       </p>
       <p>
         <m>f($p) =</m><answer allowedErrorInNumbers="0.1" allowedErrorIsAbsolute>$$f($p)</answer> and <m>f($q) =</m><answer allowedErrorInNumbers="0.1" allowedErrorIsAbsolute>$$f($q)</answer>

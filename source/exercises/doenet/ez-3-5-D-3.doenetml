@@ -41,12 +41,12 @@
         Find all critical numbers of <m>f</m>.  If there is more than one critical number, enter them as a list separated by commas.  If there are none, enter <em>none</em>.
       </p>
       <p>
-        The exact critical numbers of <m>f</m> are: <m>x = </m><answer> $crNum</answer>. 
+        The exact critical numbers of <m>f</m> are: <m>x = </m><answer> $crNum</answer> 
       </p>  
     </li>
     <li>
       <p>
-        The exact value of the function at each of the respective endpoints of the interval are:
+        The exact values of the function at the respective endpoints of the interval are:
       </p>
       <p>
         <m>f($p) =</m><answer allowedErrorInNumbers="0.001" allowedErrorIsAbsolute>$$f($p)</answer> and <m>f($q) =</m><answer allowedErrorInNumbers="0.001" allowedErrorIsAbsolute>$$f($q)</answer>
@@ -87,7 +87,6 @@
         $fAbsMin, $$f($crNum), <m>abs($fAbsMin - $$f($crNum))</m>, $test1, $check
       </p>  
       -->
-      
     </li>
   </ol>  
 </p>

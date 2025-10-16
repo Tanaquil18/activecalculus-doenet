@@ -18,7 +18,7 @@
   <selectFromSequence name = "c" from = "-3" to = "3" step = "1" exclude="0 $a $b"/> 
 
   <selectFromSequence name = "p" from = "-3" to = "1" step = "1" exclude="0"/>
-  <selectFromSequence name = "q" from = "2" to = "5" step = "1"/>
+  <selectFromSequence name = "q" from = "2" to = "5" step = "1" exclude="abs($p)"/>
   
   <function name="f">$a*x/(x^2 + $b) + $c</function>
   <derivative name="fP">$f</derivative>
@@ -63,7 +63,7 @@
     </li>
     <li>
       <p>
-        The exact value of the function at each of the respective endpoints of the interval are:
+        The exact values of the function at the respective endpoints of the interval are:
       </p>
       <p>
         <m>f($p) =</m><answer>$$f($p)</answer> and <m>f($q) =</m><answer>$$f($q)</answer>

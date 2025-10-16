@@ -23,6 +23,15 @@
       </slate>   
     </interactive>  
 </exercise>
+
+<exercise xml:id="ez-3-5-doenet-0a">
+  <title>Finding the absolute max and min of a cubic function from its graph on a closed interval </title>
+     <interactive xml:id="doenet-interactive-exercise-3-5-0a" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-5-D-0a.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
   
 <exercise xml:id="ez-3-5-doenet-1">
   <title>Finding the absolute max and min of a quadratic function on a closed interval</title>
@@ -50,7 +59,16 @@
       </slate>   
     </interactive>  
 </exercise>
-    
+
+<exercise xml:id="ez-3-5-doenet-4">
+  <title>Finding the absolute max and min of a cubic function on a closed interval</title>
+     <interactive xml:id="doenet-interactive-exercise-3-5-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-5-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="SIl">
     <statement>
       <p permid="WfH">
