@@ -1,0 +1,55 @@
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2025                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<!-- A preliminary version of this exercise was drafted by Weidai Sun after the 2024 Doenet workshop -->
+
+<setup>
+  <selectFromSequence name="P" from="410" to="620" step="10"/>
+  <select name="h" hide> 3 4 5 6 </select>
+  
+    <rectangle name="r1" center="(0,0)" width="2" height="10" styleNumber="5" fixed/>
+    <rectangle name="r2" center="(-2,0)" width="2" height="10" styleNumber="5" fixed/>
+    <rectangle name="r3" center="(2,0)" width="2" height="10" styleNumber="5" fixed/>
+    <rectangle name="r4" center="(-4,0)" width="2" height="10" styleNumber="5" fixed/>
+    <rectangle name="r5" center="(4,0)" width="2" height="10" styleNumber="5" fixed/>
+    <rectangle name="r6" center="(6,0)" width="2" height="10" styleNumber="5" fixed/> 
+  
+    <function name="A"> $h*x*($P/2 - $h*x) </function>
+    <number name="crNum"> $P/(4*$h) </number>
+    <number name="max"> $$A($crNum) </number>
+    <number name="vert"> $P/2 - $h*$crNum </number>
+  
+</setup>
+
+<p> 
+  A rancher wants to enclose a rectangular area and then divide it into <m>$h</m> equally-sized individual pens with fencing parallel to one side of the rectangle (see the figure below). There are <m>$P</m> feet of fencing available to complete the job. What is the largest possible total area of the <m>$h</m> pens? 
+</p>
+  <conditionalContent hide name="group1"> 
+    <case condition="$h = 3"> $r1 $r2 $r3 </case>
+    <case condition="$h = 4"> $r1 $r2 $r3 $r4 </case>
+    <case condition="$h = 5"> $r1 $r2 $r3 $r4 $r5</case>
+    <case condition="$h = 6"> $r1 $r2 $r3 $r4 $r5 $r6 </case>
+  </conditionalContent>
+  <graph name="g" aspectRatio="4" displayXAxis="false" displayYAxis="false" showNavigation="false" showBorder="false">
+    $group1
+  </graph>
+
+<p> The absolute maximum enclosed area is <answer allowedErrorInNumbers="0.01" allowedErrorIsAbsolute>$max</answer> 
+with units <answer><choiceInput inline>
+  <choice>?</choice>
+  <choice>feet</choice>
+  <choice credit="1">square feet</choice>
+  <choice>cubic feet</choice>
+</choiceInput></answer>.  This absolute maximum occurs when the vertical length (in the figure above) of one of the individual pens is <answer name="vertEntered">$vert</answer> feet, and the horizontal length of one of the individual pens is <answer name="horizEntered">$crNum</answer> feet.
+</p> 

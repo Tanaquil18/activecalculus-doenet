@@ -1,0 +1,68 @@
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2025                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<setup>
+  <selectFromSequence name="a" from="1/2" to="3/2" step="1"/>
+  <selectFromSequence name="b" from="1" to="3" step="1/2"/>
+
+  <function name="v" variable="t">$b - $a*t</function>
+  <function name="s" variable="t">$b*t - $a*t^2/2</function>
+  
+</setup>  
+
+<p>
+  Suppose that a moving object for times <m>t = 0</m> to <m>t = 8</m> (seconds) has its velocity is given by the function <m>v(t) = $v</m> (feet per second).  A graph of <m>v</m> is provided below; note that the vertical and horizontal scales are different.
+</p>  
+
+      <graph grid="true" size="medium" xMin="-0.25" xMax="8" yMin="-8" yMax="8" fixAxes="true" showNavigation="false">  
+        $v
+        <label anchor="(0.5,7.5)">ft/sec</label> 
+        <label anchor="(7.5,0.5)">sec</label> 
+        <label anchor="($b/$a+0.25,0.65)"><m>v</m></label> 
+      </graph> 
+<p>
+  Use the graph and the formula for <m>v(t)</m> to determine each of the following quantities.
+</p>  
+<p>
+  <ul>
+    <li>
+      <p>
+        The object's change in position on <m>[0, <math simplify>$b/$a</math>]</m> is <answer>$$s($b/$a)</answer>
+      </p>  
+    </li>
+    <li>
+      <p>
+        The object's change in position on <m>[<math simplify>$b/$a</math>, 8]</m> is <answer>$$s(8)-$$s($b/$a)</answer>
+      </p>  
+    </li>
+    <li>
+      <p>
+        The object's total change in position on <m>[0, 8]</m> is <answer>$$s(8)-$$s(0)</answer>
+      </p>  
+    </li>
+    <li>
+      <p>
+        The object's total distance traveled on <m>[0, 8]</m> is <answer>2*$$s($b/$a) - $$s(8)</answer>
+      </p> 
+    </li>  
+  </ul>
+</p>
+<p>
+  The units on each of the quantities found above are <answer><choiceInput inline>
+          <choice>?</choice>
+          <choice>feet per second</choice>
+          <choice>seconds</choice>
+          <choice credit="1">feet</choice>
+        </choiceInput></answer>.
+</p>  

@@ -13,32 +13,26 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-3-4" component="static runestone">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-3-4" component="doenet">
   
-  <exercise label="csafranski__3.4HW_prob1.pg">
-    <webwork source="csafranski/3.4HW_prob1.pg"/>
-  </exercise>
-  <exercise label="csafranski__3.4HW_prob2.pg">
-    <webwork source="csafranski/3.4HW_prob2.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setDerivatives10_5Optim__S04.07.Optimization.PTP01.pg">
-    <webwork source="csafranski/3.4HW_prob3.pg"/>
-  </exercise>
-  <exercise label="csafranski__3.4HW_prob4.pg">
-    <webwork source="csafranski/3.4HW_prob4.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setDerivatives10_5Optim__S04.07.Optimization.PTP04.pg">
-    <webwork source="csafranski/3.4HW_prob5.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setDerivatives10_5Optim__S04.07.Optimization.PTP06.pg">
-    <webwork source="csafranski/3.4HW_prob6.pg"/>
-  </exercise>
-  <exercise label="Library__UCSB__Stewart5_4_7__Stewart5_4_7_32.pg">
-    <webwork source="Library/UCSB/Stewart5_4_7/Stewart5_4_7_32.pg"/>
-  </exercise>
-  <exercise label="Library__WHFreeman__Rogawski_Calculus_Early_Transcendentals_Second_Edition__4_Applications_of_the_Derivative__4.7_Applied_Optimization__4.7.7.pg">
-    <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.7_Applied_Optimization/4.7.7.pg"/>
-  </exercise>
+<exercise xml:id="ez-3-6-doenet-1">
+  <title>Optimizing the area bounded by a rectangular fence with subdivisions</title>
+     <interactive xml:id="doenet-interactive-exercise-3-6-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-6-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-3-6-doenet-2">
+  <title>Optimizing the volume of a rectangular storage container</title>
+     <interactive xml:id="doenet-interactive-exercise-3-6-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-3-6-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="Ecd">
     <statement>
       <p permid="ELX">
