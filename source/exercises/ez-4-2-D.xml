@@ -13,37 +13,62 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-4-2" component="static runestone">
-  <exercise label="Library__Michigan__Chap5Sec1__Q05.pg">
-    <webwork source="csafranski/4.2HW_prob1.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setIntegrals0Theory__S05.01.AreaDistance.PTP01.pg">
-    <webwork source="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP01.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setIntegrals0Theory__S05.01.AreaDistance.PTP00.pg">
-    <webwork source="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP00.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setIntegrals0Theory__S05.01.AreaDistance.PTP03.pg">
-    <webwork source="csafranski/4.2HW_prob1.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap5Sec2__Q19.pg">
-    <webwork source="Library/Michigan/Chap5Sec2/Q19.pg"/>
-  </exercise>
-  <exercise label="Library__FortLewis__Calc1__05-02-Definite-integral__HGM5-05-02-Definite-integral-25b.pg">
-    <webwork source="csafranski/4.2HW_prob6.pg"/>
-  </exercise>
-  <exercise label="Library__WHFreeman__Rogawski_Calculus_Early_Transcendentals_Second_Edition__5_The_Integral__5.5_Net_Change_as_the_Integral_of_a_Rate__5.5.18.pg">
-    <webwork source="csafranski/4.2HW_prob7.pg"/>
-  </exercise>
-  <!--  WeBWorK exercise not compatible with PTX  -->
-  <!--
-  <exercise label="Library__FortLewis__Calc1__05-02-Definite-integral__HGM5-05-02-Definite-integral-25a" xml:id="ez-4-2-WW4">
-    <webwork source="Library/FortLewis/Calc1/05-02-Definite-integral/HGM5-05-02-Definite-integral-25a.pg" />
-  </exercise>
-  <exercise label="Library__FortLewis__Calc1__05-02-Definite-integral__HGM5-05-02-Definite-integral-25b" xml:id="ez-4-2-WW5">
-    <webwork source="Library/FortLewis/Calc1/05-02-Definite-integral/HGM5-05-02-Definite-integral-25b.pg" />
-  </exercise>
-  -->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-4-2" component="doenet">
+
+<exercise xml:id="ez-4-2-doenet-1">
+  <title>Using Riemann sums to analyze velocity data for a braking car</title>
+     <interactive xml:id="doenet-interactive-exercise-4-2-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-4-2-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-4-2-doenet-2">
+  <title>Using Riemann sums to analyze rate data for a draining tank</title>
+     <interactive xml:id="doenet-interactive-exercise-4-2-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-4-2-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-4-2-doenet-3">
+  <title>Reasoning visually to decide if Riemann sums over- or under-estimate exact area</title>
+     <interactive xml:id="doenet-interactive-exercise-4-2-3" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-4-2-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-4-2-doenet-4">
+  <title>Determining values of Riemann sums and whether they over- or under-estimate exact area</title>
+     <interactive xml:id="doenet-interactive-exercise-4-2-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-4-2-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-4-2-doenet-5">
+  <title>Building Riemann sums for a logarithmic function</title>
+     <interactive xml:id="doenet-interactive-exercise-4-2-5" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-4-2-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-4-2-doenet-6">
+  <title>Using Riemann sums to analyze velocity data for moving object</title>
+     <interactive xml:id="doenet-interactive-exercise-4-2-6" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-4-2-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="SWT">
     <statement>
       <p permid="kTt">
