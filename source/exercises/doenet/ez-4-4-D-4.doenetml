@@ -1,0 +1,71 @@
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2025                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<setup>
+
+  <selectFromSequence name="p" from="1" to="3"/>
+  <selectFromSequence name="q" from="4" to="7" exclude="$p+1"/>
+  <selectFromSequence name="c" from="0.5" to="2.5" step="1"/>
+  <selectFromSequence name="k" from="0.5" to="2.5" step="1"/>
+  <selectFromSequence name="s0" from="1" to="4"/>
+
+  <number name="AV">($k*$q+$c*$p)/($q-$p)</number>
+  <number name="vZero">$p + $c*$p/$AV</number>
+  
+  <function name="v" variable="t">$AV*(t-$p)-$c*$p</function>
+  <function name="s" variable="t">$AV/2*(t-$p)^2-$c*$p*t + $s0 - $AV/2*(-$p)^2 </function>  
+  
+</setup>   
+
+<p>
+  An object moving along a straight line has its instantaneous velocity at time <m>t</m> given by <me>v(t) = $AV(t-$p) - <math simplify>$c*$p</math>,</me>
+  where <m>v</m> is measured in feet per second and <m>t</m> is time in seconds.
+</p>  
+
+<p>
+  <ol marker="a.">
+    <li>
+      <p>
+        If the object's initial position is <m>s(0) = $s0</m>, find a formula for <m>s(t)</m>, the object's position along the straight line at time <m>t</m>.
+      </p>
+      <p>
+        <m>s(t) = </m> <mathInput name="pos"/> <answer simplifyOnCompare><award><when>$pos=$s</when></award></answer>
+      </p>  
+    </li>
+    <li>
+      <p>
+        Determine the object's total change in position on the time interval <m>[$p, $q]</m>.
+      </p>
+      <p>
+        Change in position on <m>[$p, $q]</m> is <mathInput name="coP"/> feet <answer allowedErrorInNumbers="0.01" allowedErrorIsAbsolute><award><when>$coP = $$s($q)-$$s($p)</when></award></answer>
+      </p>  
+    </li>  
+    <li>
+      <p>
+        Determine the object's total distance traveled on the time interval <m>[$p, $q]</m>.
+      </p>
+      <p>
+        Distance traveled on <m>[$p, $q]</m> is <mathInput name="dist"/> feet <answer allowedErrorInNumbers="0.01" allowedErrorIsAbsolute><award><when>$dist = $$s($q)+$$s($p)-2*$$s($vZero)</when></award></answer>
+      </p> 
+    </li>  
+    <li>
+      <p>
+        Find the object's average velocity on <m>[$p, $q]</m>.
+      </p>
+      <p>
+        <m>AV_{[$p,$q]} = </m> <mathInput name="avgVel"/> feet per second <answer allowedErrorInNumbers="0.01" allowedErrorIsAbsolute><award><when>$avgVel = ($$s($q)-$$s($p))/($q-$p)</when></award></answer> 
+      </p>  
+    </li>  
+  </ol>       
+</p>  
