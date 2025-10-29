@@ -52,7 +52,7 @@
 </exercise>
 
 <exercise xml:id="ez-5-1-doenet-5">
-  <title>Finding equivalent formulas for basic ntegral functions</title>
+  <title>Finding equivalent formulas for basic integral functions</title>
      <interactive xml:id="doenet-interactive-exercise-5-1-5" platform="doenetml">
       <slate surface="doenetml">   
         <xi:include href="doenet/ez-5-1-D-5.doenetml" parse="text"/>

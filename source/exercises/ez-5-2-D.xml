@@ -13,31 +13,70 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-5-2" component="static runestone">
-  <exercise label="Library__WHFreeman__Rogawski_Calculus_Early_Transcendentals_Second_Edition__5_The_Integral__5-_4_The_Fundamental_Theorem_of_Calculus_Part_II__5-_4-_35">
-    <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/5_The_Integral/5.4_The_Fundamental_Theorem_of_Calculus_Part_II/5.4.35.pg"/>
-  </exercise>
-  <exercise label="Library__ma122DB__set11__s5_3_3">
-    <webwork source="Library/ma122DB/set11/s5_3_3.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap6Sec4__Q21">
-    <webwork source="Library/Michigan/Chap6Sec4/Q21.pg"/>
-  </exercise>
-  <exercise label="csafranski__5-_2HW_prob4">
-    <webwork source="csafranski/5.2HW_prob4.pg"/>
-  </exercise>
-  <!-- has an unsupported list within a table -->
-  <!--
-  <exercise label="Library__FortLewis__Calc1__06-04-FTC2__HGM4-06-04-FTC2-21" xml:id="ez-5-2-WW3">
-    <webwork source="Library/FortLewis/Calc1/06-04-FTC2/HGM4-06-04-FTC2-21.pg" />
-  </exercise>
-  -->
-  <!--  WeBWorK exercise not compatible with PTX  -->
-  <!--
-  <exercise label="Library__FortLewis__Calc1__06-04-FTC2__HGM4-04-06-FTC2-09" xml:id="ez-5-2-WW4">
-    <webwork source="Library/FortLewis/Calc1/06-04-FTC2/HGM4-04-06-FTC2-09.pg" />
-  </exercise>
-  -->
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-5-2" component="doenet">
+
+<exercise xml:id="ez-5-2-doenet-1">
+  <title>Analyzing an integral function with a quadratic integrand</title>
+     <interactive xml:id="doenet-interactive-exercise-5-2-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-2-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-2-doenet-2">
+  <title>Analyzing an integral function with a periodic integrand</title>
+     <interactive xml:id="doenet-interactive-exercise-5-2-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-2-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-2-doenet-3">
+  <title>Applying the First FTC to an integral function</title>
+     <interactive xml:id="doenet-interactive-exercise-5-2-3" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-2-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-2-doenet-4">
+  <title>Applying the Second FTC to differentiate an integral function</title>
+     <interactive xml:id="doenet-interactive-exercise-5-2-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-2-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-2-doenet-5">
+  <title>Integral functions whose integrand involves a derivative</title>
+     <interactive xml:id="doenet-interactive-exercise-5-2-5" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-2-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-2-doenet-6">
+  <title>Using the Second FTC to find antiderivatives of given functions</title>
+     <interactive xml:id="doenet-interactive-exercise-5-2-6" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-2-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-2-doenet-7">
+  <title>Finding relative extremes of an integral function</title>
+     <interactive xml:id="doenet-interactive-exercise-5-2-7" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-2-D-7.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
 
   <exercise permid="did">
     <statement>
