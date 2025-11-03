@@ -80,6 +80,7 @@
     </p>
 
     <xi:include href="./previews/PA-5-3-WW.xml" />
+    <xi:include href="./previews/PA-5-3-D.xml" />
     <xi:include href="./previews/PA-5-3.xml" />
   </subsection>
 
@@ -488,4 +489,5 @@
   </subsection>
 
   <xi:include href="./exercises/ez-5-3.xml"/>
+  <xi:include href="./exercises/ez-5-3-D.xml"/>
 </section>

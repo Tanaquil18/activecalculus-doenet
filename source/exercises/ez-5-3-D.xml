@@ -13,37 +13,80 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-5-3" component="static runestone">
-  <exercise label="csafranski__5-_3HW_prob1">
-    <webwork source="csafranski/5.3HW_prob1.pg"/>
-  </exercise>
-  <exercise label="csafranski__5-_3HW_prob2">
-    <webwork source="csafranski/5.3HW_prob2.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap7Sec1__Q11">
-    <webwork source="Library/Michigan/Chap7Sec1/Q11.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap7Sec1__Q49">
-    <webwork source="Library/Michigan/Chap7Sec1/Q49.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap7Sec1__Q27">
-    <webwork source="Library/Michigan/Chap7Sec1/Q27.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap7Sec1__Q33">
-    <webwork source="Library/Michigan/Chap7Sec1/Q33.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap7Sec1__Q55">
-    <webwork source="Library/Michigan/Chap7Sec1/Q55.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap7Sec1__Q83">
-    <webwork source="Library/Michigan/Chap7Sec1/Q83.pg"/>
-  </exercise>
-  <exercise label="Library__UCSB__Stewart5_5_5__Stewart5_5_5_26">
-    <webwork source="Library/UCSB/Stewart5_5_5/Stewart5_5_5_26.pg"/>
-  </exercise>
-  <exercise label="Library__UCSB__Stewart5_7_5__Stewart5_7_5_27">
-    <webwork source="Library/UCSB/Stewart5_7_5/Stewart5_7_5_27.pg"/>
-  </exercise>
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-5-3" component="doenet">
+
+<exercise xml:id="ez-5-3-doenet-1">
+  <title>Practicing the structure of <m>u</m>-substitution with trig functions</title>
+     <interactive xml:id="doenet-interactive-exercise-5-3-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-3-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-3-doenet-2">
+  <title>Practicing the structure of <m>u</m>-substitution with a logarithmic function</title>
+     <interactive xml:id="doenet-interactive-exercise-5-3-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-3-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-3-doenet-3">
+  <title>Practicing the structure of <m>u</m>-substitution with an exponential function</title>
+     <interactive xml:id="doenet-interactive-exercise-5-3-3" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-3-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-3-doenet-4">
+  <title>Practicing the structure of <m>u</m>-substitution with a power function</title>
+     <interactive xml:id="doenet-interactive-exercise-5-3-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-3-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-3-doenet-5">
+  <title><m>u</m>-substitution with trig and rational functions</title>
+     <interactive xml:id="doenet-interactive-exercise-5-3-5" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-3-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-3-doenet-6">
+  <title>More <m>u</m>-substitution with trig functions</title>
+     <interactive xml:id="doenet-interactive-exercise-5-3-6" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-3-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-3-doenet-7">
+  <title>More <m>u</m>-substitution with trig and power functions</title>
+     <interactive xml:id="doenet-interactive-exercise-5-3-7" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-3-D-7.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
+<exercise xml:id="ez-5-3-doenet-8">
+  <title>One way that <m>u</m>-substitution can fail</title>
+     <interactive xml:id="doenet-interactive-exercise-5-3-8" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-3-D-8.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
   <exercise permid="dwy">
     <statement>
       <p permid="pDM">
