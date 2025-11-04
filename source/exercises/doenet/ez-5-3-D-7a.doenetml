@@ -13,29 +13,32 @@
 <!-- **********************************************************************-->
 
  <setup>
-  <selectFromSequence name = "k" from = "8" to = "10" step = "1"/>
+  <selectFromSequence name = "k" from = "4" to = "8" step = "1"/>
   <selectFromSequence name = "a" from = "5" to = "10" step = "1" exclude="$k ($k-1)"/>
   <selectFromSequence name = "p" from = "4" to = "10" step = "1" exclude="$k ($k-1) $a"/>   
   <selectFromSequence name = "b" from = "3" to = "8" step = "1" exclude="$k $a ($k-1) ($k+1) $p"/>
 
-  <function name="c">$a*(sec($k*x))^2*($b + tan($k*x))^$p</function>
-  <function name="antiDx">$a/$k*1/($p+1)*($b + tan($k*x))^($p+1)</function>
+  <function name="c">tan($a*x)</function>
+  <function name="antiDx">-1/$a*ln(abs(cos($a*x)))</function>
 
-  <function name="u">$b + tan($k*x)</function>
-  <function name="du">$k*(sec($k*x))^2</function>
+  <function name="u">cos($a*x)</function>
+  <function name="du">-$a*sin($a*x)</function>
 
-  <function name="uSubs" variable="u">$a/$k*u^$p</function>
-  <function name="antiDu" variable="u">$a/$k*1/($p+1)*u^($p+1)</function>
+  <function name="uSubs" variable="u">-1/$a*1/u</function>
+  <function name="antiDu" variable="u">-1/$a*ln(abs(u))</function>
 
   <boolean name="uSubsFound">$uSubs = $uSubsChoice</boolean>
    
 </setup>
 
 <p>
-  Consider the indefinite integral <m>\int $a (\sec($k x))^2 ($b + \tan($k x))^$p \, dx</m>, which can be evaluated using <m>u</m>-substitution.  
+  Consider the indefinite integral <m>\int \tan($a x) \, dx</m>.  Notice that while we know the derivative of the tangent function, its antiderivative is not familiar.  To see how we might find an antiderivative, we first write the tangent function in terms of sine and cosine.  That is,  
+  <me>
+    \int \tan($a x) \, dx = \int \frac{\sin($a x)}{\cos($a x)} \, dx.
+  </me>
 </p>
 <p>  
-  Find an appropriate composite function present in the integrand and choose the corresponding inner function for <m>u</m>, and then find <m>du</m> as well.  Fill in the following blanks to state both <m>u</m> and <m>du</m> as functions of <m>x</m>.
+  Since the sine and cosine functions form a function-derivative pair (up to a constant), <m>u</m>-substitution is a good option to pursue.  Choose an appropriate function for <m>u</m>, and then find <m>du</m> as well.  Fill in the following blanks to state both <m>u</m> and <m>du</m> as functions of <m>x</m>.
 </p>  
 
 <p>
@@ -49,7 +52,7 @@
     Now we can apply <m>u</m>-substitution to convert the original integral in <m>x</m> to a simpler integral in <m>u</m>.  Using our work above, we have 
 </p>
 <p>
-  <m>\int $a (\sec($k x))^2 ($b + \tan($k x))^$p \, dx = \int </m> <mathInput name="uSubsChoice"/> <m>\, du</m> <answer><award><when> $uSubs = $uSubsChoice</when></award></answer>
+  <m>\int \tan($a x) \, dx = \int \frac{\sin($a x)}{\cos($a x)} \, dx = \int </m> <mathInput name="uSubsChoice"/> <m>\, du</m> <answer><award><when> $uSubs = $uSubsChoice</when></award></answer>
 </p>  
 
 <p hide="$uSubsFound">
@@ -60,7 +63,7 @@
     Finally, we evaluate the simpler integral in <m>u</m> and then substitute back to write our final result in terms of <m>x</m>.
   </p>
   <p>
-  <m>\int $a (\sec($k x))^2 ($b + \tan($k x))^$p \, dx = \int $uSubsChoice \, du</m> = <mathInput name="antiDuChoice"/> <m>+ C</m> <answer simplifyOnCompare><award><when> $antiDu = $antiDuChoice</when></award></answer> <m> = </m> <mathInput name="antiDxChoice"/> <m>+ C</m> <answer simplifyOnCompare><award><when> $antiDx = $antiDxChoice</when></award></answer>.  
+  <m>\int \tan($a x) \, dx = \int \frac{\sin($a x)}{\cos($a x)} \, dx = \int $uSubsChoice \, du</m> = <mathInput name="antiDuChoice"/> <m>+ C</m> <answer simplifyOnCompare><award><when> $antiDu = $antiDuChoice</when></award></answer> <m> = </m> <mathInput name="antiDxChoice"/> <m>+ C</m> <answer simplifyOnCompare><award><when> $antiDx = $antiDxChoice</when></award></answer>. 
 </p>  
 
   

@@ -13,43 +13,62 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-5-4" component="static runestone">
-  <exercise label="csafranski__5-_4HW_prob1">
-    <webwork source="csafranski/5.4HW_prob1.pg"/>
-  </exercise>
-  <exercise label="csafranski__5-_4HW_prob2">
-    <webwork source="csafranski/5.4HW_prob2.pg"/>
-  </exercise>
-  <exercise label="csafranski__5-_4HW_prob3">
-    <webwork source="csafranski/5.4HW_prob3.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setIntegrals15ByParts__sc5_6_15">
-    <webwork source="Library/Rochester/setIntegrals15ByParts/sc5_6_15.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap7Sec2__Q15">
-    <webwork source="Library/Michigan/Chap7Sec2/Q15.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap7Sec2__Q07">
-    <webwork source="Library/Michigan/Chap7Sec2/Q07.pg"/>
-  </exercise>
-  <exercise label="Library__ma123DB__set3__s7_5_48">
-    <webwork source="Library/ma123DB/set3/s7_5_48.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap7Sec2__Q03">
-    <webwork source="Library/Michigan/Chap7Sec2/Q03.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setIntegrals15ByParts__sc5_6_7">
-    <webwork source="Library/Rochester/setIntegrals15ByParts/sc5_6_7.pg"/>
-  </exercise>
-  <exercise label="Library__UMN__calculusStewartET__s_7_1_prob07">
-    <webwork source="Library/UMN/calculusStewartET/s_7_1_prob07.pg"/>
-  </exercise>
-  <exercise label="Library__Union__setIntByParts__sc5_6_26">
-    <webwork source="Library/Union/setIntByParts/sc5_6_26.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap7Sec2__Q38">
-    <webwork source="Library/Michigan/Chap7Sec2/Q38.pg"/>
-  </exercise>
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-5-4" component="doenet">
+
+<exercise xml:id="ez-5-4-doenet-1">
+  <title>Practicing the process of integration by parts with a trig function</title>
+     <interactive xml:id="doenet-interactive-exercise-5-4-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-4-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>    
+
+<exercise xml:id="ez-5-4-doenet-2">
+  <title>Practicing the process of integration by parts with an exponential function</title>
+     <interactive xml:id="doenet-interactive-exercise-5-4-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-4-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>    
+
+<exercise xml:id="ez-5-4-doenet-3">
+  <title>Practicing the process of integration by parts with a logarithmic function</title>
+     <interactive xml:id="doenet-interactive-exercise-5-4-3" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-4-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>    
+
+<exercise xml:id="ez-5-4-doenet-4">
+  <title>Using both integration by parts and substitution</title>
+     <interactive xml:id="doenet-interactive-exercise-5-4-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-4-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
+<exercise xml:id="ez-5-4-doenet-5">
+  <title>Using both substitution and integration by parts</title>
+     <interactive xml:id="doenet-interactive-exercise-5-4-5" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-4-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
+<exercise xml:id="ez-5-4-doenet-6">
+  <title>Using integration by parts to evaluate a definite integral</title>
+     <interactive xml:id="doenet-interactive-exercise-5-4-6" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-4-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
   <exercise permid="qnG">
     <statement>
       <p permid="rlV">

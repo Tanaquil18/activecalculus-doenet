@@ -78,6 +78,15 @@
     </interactive>  
 </exercise>
 
+<exercise xml:id="ez-5-3-doenet-7a">
+  <title>Using <m>u</m>-substitution to antidifferentiate the tangent function</title>
+     <interactive xml:id="doenet-interactive-exercise-5-3-7a" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-5-3-D-7a.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>
+
 <exercise xml:id="ez-5-3-doenet-8">
   <title>One way that <m>u</m>-substitution can fail</title>
      <interactive xml:id="doenet-interactive-exercise-5-3-8" platform="doenetml">
