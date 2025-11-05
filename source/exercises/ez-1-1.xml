@@ -38,6 +38,7 @@
   <exercise label="Library__Michigan__Chap2Sec1__Q13.pg">
     <webwork source="csafranski/1.1HW_prob8.pg"/>
   </exercise>
+
   <exercise xml:id="ez-1-1-Bungee" permid="AvQ">
     <statement>
       <p permid="bci">
