@@ -39,7 +39,7 @@
 <p>
   Consider the indefinite integral
   <me>
-    \int \frac{$a x + $b}{x^2(x-$c))} \, dx
+    \int \frac{$a x + $b}{x^2(x-$c)} \, dx
   </me>
   We want to evaluate this integral using the method of partial fractions.
 </p>
@@ -54,8 +54,7 @@
 </p>  
 
 <p>
-  <m>A = </m> <mathInput minWidth="40" name="Aentered"/>, <m>B = </m>  <mathInput minWidth="40" name="Bentered"/>, <m>C = </m> <mathInput minWidth="40" name="Centered"/> <answer name="PFfound"><award><when>$Aentered = $P and $Bentered = $Q and $Centered = $R</when></award></answer>, $P, $Q, $R
-</p>  
+  <m>A = </m> <mathInput minWidth="40" name="Aentered"/>, <m>B = </m>  <mathInput minWidth="40" name="Bentered"/>, <m>C = </m> <mathInput minWidth="40" name="Centered"/> <answer name="PFfound"><award><when>$Aentered = $P and $Bentered = $Q and $Centered = $R</when></award></answer>
 
 <p hide="$correctPFfound">
   (<em>The next steps will appear once you have correctly completed the steps above.</em>)
