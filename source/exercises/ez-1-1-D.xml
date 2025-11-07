@@ -102,8 +102,7 @@
         </tabular>
       <!-- </table> --> 
     </introduction>
-      <p>
-        <task>
+    <task>
           <statement>
             <p> 
               What are the units on the average velocity of the car? 
@@ -119,8 +118,8 @@
               feet per second
             </p>
           </answer>
-        </task>  
-        <task>
+    </task>  
+    <task>
           <statement>
             <p>
               Find the average velocity of the car on the interval <m>0 \le t \le 0.9</m>.
@@ -136,8 +135,8 @@
               The average velocity of the car on the interval <m>0 \le t \le 0.9</m> is <m>1.17</m> feet per second. 
             </p>
           </answer>
-        </task>
-        <task>
+    </task>
+    <task>
           <statement>
             <p>
               <!-- $c = 3 -->
@@ -149,8 +148,7 @@
               The average velocity of the car on the interval <m>[0.9,1.5]</m> is <m>3.12</m> feet per second.  
             </p>
           </answer>
-        </task>
-      </p>
+    </task>
   </exercise>    
 
   <exercise xml:id="ez-1-1-Bungee" permid="AvQ">
