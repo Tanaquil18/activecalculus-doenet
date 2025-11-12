@@ -13,29 +13,62 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-6-2" component="static runestone">
-  <exercise label="Library__Michigan__Chap8Sec2__Q05">
-    <webwork source="Library/Michigan/Chap8Sec2/Q05.pg"/>
-  </exercise>
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-6-2" component="doenet">
 
-  <!-- see GitHub Issue #305 about how this exercise isn't consistent in WW
-  <exercise label="csafranski__6_2HW_prob2">
-    <webwork source="csafranski/6.2HW_prob2.pg"/>
-  </exercise>
-  -->
+<exercise label="ez-6-2-doenet-1">
+  <title>Finding the volume of a solid of revolution using the Disk Method with an exponential function</title>
+     <interactive label="doenet-interactive-exercise-6-2-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-2-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
 
-  <exercise label="Library__UCSB__Stewart5_6_2__Stewart5_6_2_23__Stewart5_6_2_23">
-        <webwork source="csafranski/6.2HW_prob3.pg"/>
-  </exercise>
-  <exercise label="Library__UMN__calculusStewartCCC__s_6_2_8">
-    <webwork source="Library/UMN/calculusStewartCCC/s_6_2_8.pg"/>
-  </exercise>
-  <exercise label="Library__UMN__calculusStewartCCC__s_6_2_12">
-    <webwork source="Library/UMN/calculusStewartCCC/s_6_2_12.pg"/>
-  </exercise>
-  <exercise label="csafranski__6-_2HW_prob6">
-    <webwork source="csafranski/6.2HW_prob6.pg"/>
-  </exercise>  
+<exercise label="ez-6-2-doenet-2">
+  <title>(answer-checking to fix) Finding the volume of a solid of revolution using the Disk Method with a quadratic function</title>
+     <interactive label="doenet-interactive-exercise-6-2-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-2-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
+<exercise label="ez-6-2-doenet-3">
+  <title>Finding the volume of two solids of revolution using the Washer Method</title>
+     <interactive label="doenet-interactive-exercise-6-2-3" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-2-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
+<exercise label="ez-6-2-doenet-4">
+  <title>Solids of revolution that are revolved about lines of form <m>y = k</m></title>
+     <interactive label="doenet-interactive-exercise-6-2-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-2-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise label="ez-6-2-doenet-5">
+  <title>Solids of revolution that are revolved about lines of form <m>x = k</m></title>
+     <interactive label="doenet-interactive-exercise-6-2-5" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-2-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise label="ez-6-2-doenet-6">
+  <title>Using definite integrals to find the volume of a sphere and a portion of a sphere</title>
+     <interactive label="doenet-interactive-exercise-6-2-6" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-2-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
   <exercise permid="aXR">
     <statement>
       <p permid="NSB">
