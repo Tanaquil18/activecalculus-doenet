@@ -13,27 +13,43 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-6-3" component="static runestone">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-6-3" component="doenet">
 
-  <exercise label="Library__Michigan__Chap8Sec4__Q03" xml:id="ez-6-3-WW1" permid="WgU">
-    <title>Center of mass for a linear density function</title>
-    <webwork source="Library/Michigan/Chap8Sec4/Q03.pg"/>
-  </exercise>
+<exercise label="ez-6-3-doenet-1">
+  <title>Finding the mass and center of mass of a bar with a linear density distribution</title>
+     <interactive label="doenet-interactive-exercise-6-3-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-3-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
 
-  <exercise label="Library__Michigan__Chap8Sec4__Q19" xml:id="ez-6-3-WW2" permid="Cod">
-    <title>Center of mass for a nonlinear density function</title>
-    <webwork source="Library/Michigan/Chap8Sec4/Q19.pg"/>
-  </exercise>
+<exercise label="ez-6-3-doenet-2">
+  <title>Finding the mass and center of mass of a bar with a nonline density distribution</title>
+     <interactive label="doenet-interactive-exercise-6-3-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-3-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
 
-  <exercise label="Library__Michigan__Chap8Sec4__Q05" xml:id="ez-6-3-WW3" permid="ivm">
-    <title>Interpreting the density of cars on a road</title>
-    <webwork source="Library/Michigan/Chap8Sec4/Q05.pg"/>
-  </exercise>
+<exercise label="ez-6-3-doenet-3">
+  <title>Finding where half of a bar's mass lies to the left and half lies to the right</title>
+     <interactive label="doenet-interactive-exercise-6-3-3" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-3-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
 
-  <exercise label="Library__Michigan__Chap8Sec4__Q07" xml:id="ez-6-3-WW4" permid="OCv">
-    <title>Center of mass in a point-mass system</title>
-    <webwork source="Library/Michigan/Chap8Sec4/Q07.pg"/>
-  </exercise>
+<exercise label="ez-6-3-doenet-4">
+  <title>Estimating and analyzing where half of a bar's mass lies to the left and half lies to the right</title>
+     <interactive label="doenet-interactive-exercise-6-3-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-3-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
 
   <exercise permid="uJE">
     <statement>
