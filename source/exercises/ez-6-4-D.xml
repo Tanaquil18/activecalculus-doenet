@@ -13,38 +13,62 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-6-4" component="static runestone">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-6-4-D" component="doenet">
 
-  <exercise label="Library__ma123DB__set1__s6_4_17" xml:id="ez-6-4-WW1" permid="LAL">
-    <title>Work to empty a conical tank</title>
-    <webwork source="Library/ma123DB/set1/s6_4_17.pg"/>
-  </exercise>
+<exercise label="ez-6-4-doenet-1">
+  <title>Finding the work to lift an object using a rope</title>
+     <interactive label="doenet-interactive-exercise-6-4-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-4-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
 
-  <exercise label="Library__Michigan__Chap8Sec5__Q15" xml:id="ez-6-4-WW2" permid="rHU">
-    <title>Work to empty a cylindrical tank</title>
-    <webwork source="Library/Michigan/Chap8Sec5/Q15.pg"/>
-  </exercise>
+<exercise label="ez-6-4-doenet-2">
+  <title>Finding the work to empty a cylindrical tank</title>
+     <interactive label="doenet-interactive-exercise-6-4-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-4-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
 
-  <exercise label="Library__Michigan__Chap8Sec5__Q11" xml:id="ez-6-4-WW3" permid="XPd">
-    <title>Work to empty a rectangular pool</title>
-    <webwork source="Library/Michigan/Chap8Sec5/Q11.pg"/>
-  </exercise>
+<exercise label="ez-6-4-doenet-3">
+  <title>Finding the work to empty a conical tank</title>
+     <interactive label="doenet-interactive-exercise-6-4-3" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-4-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
 
-  <exercise label="Library__Michigan__5e__Chap8Sec5__Q15" xml:id="ez-6-4-WW4" permid="DWm">
-    <title>Work to empty a cylindrical tank to differing heights</title>
-    <webwork source="Library/Michigan/5e/Chap8Sec5/Q15.pg"/>
-  </exercise>
+<exercise label="ez-6-4-doenet-4">
+  <title>Finding the hydrostatic force on the sides of a rectangular tank</title>
+     <interactive label="doenet-interactive-exercise-6-4-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-4-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
 
-  <exercise label="Library__Michigan__Chap8Sec5__Q23" xml:id="ez-6-4-WW5" permid="kdv">
-    <title>Force due to hydrostatic pressure</title>
-    <webwork source="Library/Michigan/Chap8Sec5/Q23.pg"/>
-  </exercise>
-  <!--  WeBWorK exercise not compatible with PTX  -->
-  <!--
-  <exercise label="Library__Michigan__Chap8Sec5__Q27" xml:id="ez-6-4-WW6">
-    <webwork source="Library/Michigan/Chap8Sec5/Q27.pg" />
-  </exercise>
-  -->
+<exercise label="ez-6-4-doenet-5">
+  <title>Finding the hydrostatic force on the end of a trough</title>
+     <interactive label="doenet-interactive-exercise-6-4-5" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-4-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise label="ez-6-4-doenet-6">
+  <title>Finding the work to pump out a triangular trough</title>
+     <interactive label="doenet-interactive-exercise-6-4-6" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-4-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
   <exercise permid="QkE">
     <statement>
       <p permid="yQU">
