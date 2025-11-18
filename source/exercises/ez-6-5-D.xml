@@ -51,6 +51,15 @@
     </interactive>  
 </exercise>  
 
+<exercise label="ez-6-5-doenet-5">
+  <title>Explaining why an improper integral diverges</title>
+     <interactive label="doenet-interactive-exercise-6-5-5" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-5-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
   <exercise permid="aYe">
     <statement>
       <p permid="hbL">
