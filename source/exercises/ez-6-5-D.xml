@@ -60,6 +60,15 @@
     </interactive>  
 </exercise> 
 
+<exercise label="ez-6-5-doenet-6">
+  <title>Explaining why an improper integral converges</title>
+     <interactive label="doenet-interactive-exercise-6-5-6" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-6-5-D-6.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
   <exercise permid="aYe">
     <statement>
       <p permid="hbL">
