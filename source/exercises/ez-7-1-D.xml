@@ -13,32 +13,18 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-7-1" component="static runestone">
-  <exercise label="csafranski__7-_1HW_prob1">
-    <webwork source="csafranski/7.1HW_prob1.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap11Sec1__Q03">
-    <webwork source="Library/Michigan/Chap11Sec1/Q03.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setDiffEQ1__e7_1_3a">
-    <webwork source="Library/Rochester/setDiffEQ1/e7_1_3a.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setDiffEQ1__e7_1_4a">
-    <webwork source="Library/Rochester/setDiffEQ1/e7_1_4a.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap11Sec1__Q15">
-    <webwork source="Library/Michigan/Chap11Sec1/Q15.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap11Sec1__Q05">
-    <webwork source="Library/Michigan/Chap11Sec1/Q05.pg"/>
-  </exercise>
-  <!-- Has a table within a table and not supported by PTX -->
-  <!--
-  <exercise label="Library__Michigan__Chap11Sec1__Q01" xml:id="ez-7-1-WW1">
-    <webwork source="Library/Michigan/Chap11Sec1/Q01.pg" />
-  </exercise>
-  -->
-  <exercise permid="ahg">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-7-1" component="doenet">
+  
+<exercise label="ez-7-1-doenet-1">
+  <title>Determining whether a function is a solution to a differential equation or initial value problem</title>
+     <interactive label="doenet-interactive-exercise-7-1-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-7-1-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
+    <exercise permid="ahg">
     <statement>
       <p permid="ErY">
         Suppose that <m>T(t)</m> represents the temperature of a cup of
