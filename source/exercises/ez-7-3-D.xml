@@ -13,24 +13,53 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-7-3" component="static runestone">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-7-3" component="doenet">
 
-  <exercise label="Library__Michigan__Chap11Sec3__Q03">
-    <webwork source="Library/Michigan/Chap11Sec3/Q03.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap11Sec3__Q09">
-    <webwork source="Library/Michigan/Chap11Sec3/Q09.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap11Sec3__Q05">
-    <webwork source="Library/Michigan/Chap11Sec3/Q05.pg"/>
-  </exercise>
-  <exercise label="Library__Michigan__Chap11Sec3__Q01">
-    <webwork source="Library/Michigan/Chap11Sec3/Q01.pg"/>
-  </exercise>
-  <exercise label="Library__Rochester__setDiffEQ2DirectionFields__ur_de_2_6">
-    <webwork source="Library/Rochester/setDiffEQ2DirectionFields/ur_de_2_6.pg"/>
-  </exercise>
+<exercise label="ez-7-3-doenet-1">
+  <title>Applying Euler's Method to an autonomous differential equation</title>
+     <interactive label="doenet-interactive-exercise-7-3-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-7-3-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
   
+<exercise label="ez-7-3-doenet-2">
+  <title>Applying Euler's Method to a differential equation involving both <m>t</m> and <m>y</m></title>
+     <interactive label="doenet-interactive-exercise-7-3-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-7-3-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
+<exercise label="ez-7-3-doenet-3">
+  <title>Analyzing the error in Euler's Method</title>
+     <interactive label="doenet-interactive-exercise-7-3-3" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-7-3-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
+
+<exercise label="ez-7-3-doenet-4">
+  <title>Applying Euler's Method to a differential equation that can't be solved exactly</title>
+     <interactive label="doenet-interactive-exercise-7-3-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-7-3-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
+<exercise label="ez-7-3-doenet-5">
+  <title>Executing the next step of Euler's Method</title>
+     <interactive label="doenet-interactive-exercise-7-3-5" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-7-3-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
+
   <exercise permid="bmM">
     <statement>
       <p permid="HIq">
