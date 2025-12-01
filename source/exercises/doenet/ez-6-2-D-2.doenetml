@@ -54,9 +54,9 @@
           <m>V = \displaystyle\int_{$lower}^{$upper}</m><mathInput name="int1" minWidth="100" /><m>d</m><mathInput name="dWhat" minWidth="15"/><answer><award><when>($int1 = $g or $int1 = $g2) and $dWhat = y </when></award></answer>
         </p> 
         
-          <!-- testing -->  
+          <!-- testing
          <p> <m>int1 = $int1</m>, <m>$g</m> , <m>$g1</m> , <m>$g2</m> , $dWhat, </p> 
-          <!-- testing -->
+          -->
       </li>
       <li>
         <p>
