@@ -13,32 +13,52 @@
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
 
-<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-7-5" component="static runestone">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-7-5" component="doenet">
 
-  <exercise label="Library__Rochester__setDiffEQ5ModelingWith1stOrder__ns7_4_31a" xml:id="ez-7-5-WW1" permid="mhD">
-    <title>Mixing problem</title>
-    <webwork source="Library/Rochester/setDiffEQ5ModelingWith1stOrder/ns7_4_31a.pg"/>
-  </exercise>
+<exercise label="ez-7-5-doenet-1">
+  <title>Modeling a fish population</title>
+     <interactive label="doenet-interactive-exercise-7-5-1" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-7-5-D-1.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise>  
 
-  <exercise label="Library__Rochester__setDiffEQ5ModelingWith1stOrder__ns7_4_31c" xml:id="ez-7-5-WW2" permid="SoM">
-    <title>Mixing problem</title>
-    <webwork source="Library/Rochester/setDiffEQ5ModelingWith1stOrder/ns7_4_31c.pg"/>
-  </exercise>
+<exercise label="ez-7-5-doenet-2">
+  <title>Modeling a fish population with harvesting</title>
+     <interactive label="doenet-interactive-exercise-7-5-2" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-7-5-D-2.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
 
-  <exercise label="Library__Rochester__setDiffEQ5ModelingWith1stOrder__ns7_5_3" xml:id="ez-7-5-WW3" permid="yvV">
-    <title>Population growth problem</title>
-    <webwork source="Library/Rochester/setDiffEQ5ModelingWith1stOrder/ns7_5_3.pg"/>
-  </exercise>
+<exercise label="ez-7-5-doenet-3">
+  <title>Modeling the salt in a tank that is being flushed with pure water</title>
+     <interactive label="doenet-interactive-exercise-7-5-3" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-7-5-D-3.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
 
-  <exercise label="Library__Rochester__setDiffEQ5ModelingWith1stOrder__ns7_5_10" xml:id="ez-7-5-WW4" permid="eDe">
-    <title>Radioactive decay problem</title>
-    <webwork source="Library/Rochester/setDiffEQ5ModelingWith1stOrder/ns7_5_10.pg"/>
-  </exercise>
+<exercise label="ez-7-5-doenet-4">
+  <title>Modeling the salt in a tank that has an inflow solution</title>
+     <interactive label="doenet-interactive-exercise-7-5-4" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-7-5-D-4.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
 
-  <exercise label="Library__Rochester__setDiffEQ5ModelingWith1stOrder__ur_de_5_1" xml:id="ez-7-5-WW5" permid="KKn">
-    <title>Investment problem</title>
-    <webwork source="Library/Rochester/setDiffEQ5ModelingWith1stOrder/ur_de_5_1.pg"/>
-  </exercise>
+<exercise label="ez-7-5-doenet-5">
+  <title>Modeling saving for retirement and withdrawals in retirement</title>
+     <interactive label="doenet-interactive-exercise-7-5-5" platform="doenetml">
+      <slate surface="doenetml">   
+        <xi:include href="doenet/ez-7-5-D-5.doenetml" parse="text"/>
+      </slate>   
+    </interactive>  
+</exercise> 
 
   <exercise permid="qRw">
     <statement>
