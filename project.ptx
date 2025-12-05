@@ -14,18 +14,17 @@
       platform="runestone" 
     />
     <target
-      name="doenet"
+      name="runestone"
       format="html"
       xsl="acs-html.xsl"
       publication="publication_doenet.ptx"
-      platform="runestone"
-      deploy-dir="doenet" />    
-    <target
+      platform="runestone" />    
+    <!-- <target
       name="runestone"
       format="html"
       xsl="acs-html.xsl"
       publication="publication_runestone.ptx"
-      platform="runestone" />
+      platform="runestone" /> -->
     <target 
       name="solutions-latex" 
       format="latex"
