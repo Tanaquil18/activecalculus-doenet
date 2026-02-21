@@ -47,7 +47,7 @@
   <title>Applying the product rule to products of basic functions</title>
   <dynamic>
     <statement>  
-      <interactive label="doe-int-ex-2-3-3" platform="doenetml">
+      <interactive label="doe-int-ex-2-3-3" platform="doenetml" version="dev">
         <slate surface="doenetml">
           <xi:include href="doenet/ez-2-3-D-3.doenetml" parse="text"/>
         </slate>   
@@ -75,7 +75,7 @@
   <title>A function that requires both the product and quotient rule, from two perspectives</title>
   <dynamic>
     <statement>  
-      <interactive label="doe-int-ex-2-3-5" platform="doenetml">
+      <interactive label="doe-int-ex-2-3-5" platform="doenetml" version="dev">
         <slate surface="doenetml">
           <xi:include href="doenet/ez-2-3-D-5.doenetml" parse="text"/>
         </slate>   
@@ -89,7 +89,7 @@
   <title>Applying the product and/or quotient rules to find derivative formulas</title>
   <dynamic>
     <statement>  
-      <interactive label="doe-int-ex-2-3-4a" platform="doenetml">
+      <interactive label="doe-int-ex-2-3-4a" platform="doenetml" version="dev">
         <slate surface="doenetml">
           <xi:include href="doenet/ez-2-3-D-4a.doenetml" parse="text"/>
         </slate>   
