@@ -33,7 +33,7 @@
   <title>More derivatives involving trigonometric functions</title>
   <dynamic>
     <statement>  
-      <interactive label="doe-int-ex-2-4-1a" platform="doenetml">
+      <interactive label="doe-int-ex-2-4-1a" platform="doenetml" version="dev">
         <slate surface="doenetml">
           <xi:include href="doenet/ez-2-4-D-1a.doenetml" parse="text"/>
         </slate>   
