@@ -11,7 +11,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-  
+
 <setup>
   <selectFromSequence name = "a" from = "3" to = "9" step = "1"/>
   <selectFromSequence name = "b" from = "-5" to = "5" step = "1" exclude="-1 0 1"/>
@@ -19,27 +19,27 @@
   <selectFromSequence name = "d" from = "2" to = "7" step = "1" exclude="$b $c"/>
   <selectFromSequence name = "k" from = "2" to = "6" step = "1"/>
   <math name="m">$a+1</math>
-    
+
   <function name="f">$c*x^$k*ln($d*x^2+1)</function>
   <derivative name="fP">$f</derivative>
-  
-  <function name="g"><math simplify>asin($a^x)</math></function>
+
+  <function name="g"><math simplify>arcsin($a^x)</math></function>
   <derivative name="gP">$g</derivative>
 
-  <function name="h">atan($k*x+1)/(e^($a*x))</function>
+  <function name="h">arctan($k*x+1)/(e^($a*x))</function>
   <derivative name="hP">$h</derivative>
 
-  <function name="p">$m/(ln($d*x)+atan($k*x))</function>
+  <function name="p">$m/(ln($d*x)+arctan($k*x))</function>
   <derivative name="pP">$p</derivative>
 
-  <function name="q">($a*asin(x^$d) + $k)($b*atan(x^$k) + $d)</function>
+  <function name="q">($a*arcsin(x^$d) + $k)($b*arctan(x^$k) + $d)</function>
   <derivative name="qP">$q</derivative>
-  
+
 </setup>
 
 <p>
   For each of the following functions, use appropriate basic derivative rules along with the chain rule to find a formula for the function's derivative.  You need not algebraically simplify your derivative formulas.
-</p>  
+</p>
 
 <p>
   <ol marker="a.">
@@ -68,6 +68,6 @@
         If <m>q(x)= ($a \arcsin(x^$d) + $k)($b \arctan(x^$k) + $d)</m>, then <m>q'(x)= </m><answer>$qP</answer>.
       </p>
     </li>
-   
-  </ol>  
-</p>  
+
+  </ol>
+</p>

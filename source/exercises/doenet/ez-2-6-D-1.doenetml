@@ -5,27 +5,27 @@
   <selectFromSequence name = "d" from = "2" to = "7" step = "1" exclude="$b $c"/>
   <selectFromSequence name = "k" from = "2" to = "6" step = "1"/>
   <math name="m">$a+1</math>
-    
+
   <function name="f">$c*x^$a*ln(x)</function>
   <derivative name="fP">$f</derivative>
-  
-  <function name="g"><math simplify>asin(x)/($a^x)</math></function>
+
+  <function name="g"><math simplify>arcsin(x)/($a^x)</math></function>
   <derivative name="gP">$g</derivative>
 
-  <function name="h">atan($k*x+1)</function>
+  <function name="h">arctan($k*x+1)</function>
   <derivative name="hP">$h</derivative>
 
-  <function name="p">$m/(ln(x)+atan(x))</function>
+  <function name="p">$m/(ln(x)+arctan(x))</function>
   <derivative name="pP">$p</derivative>
 
-  <function name="q">$b*asin(x^2 + $d)</function>
+  <function name="q">$b*arcsin(x^2 + $d)</function>
   <derivative name="qP">$q</derivative>
-  
+
 </setup>
 
 <p>
   For each of the following functions, use appropriate basic derivative rules along with the chain rule to find a formula for the function's derivative.  You need not algebraically simplify your derivative formulas.
-</p>  
+</p>
 
 <p>
   <ol marker="a.">
@@ -54,6 +54,6 @@
         If <m>q(x)= $b \arcsin(x^2 + $d)</m>, then <m>q'(x)= </m><answer>$qP</answer>.
       </p>
     </li>
-   
-  </ol>  
-</p>  
+
+  </ol>
+</p>
