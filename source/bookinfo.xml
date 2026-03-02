@@ -73,5 +73,6 @@
   <rename element="inlineexercise" xml:lang="en-US">Question</rename>
 
   <doenetml version="dev" />
-  <!-- don't need above line forever, but it allows scrolling right now until a new release. -->
+  <!-- don't need above line forever, but it allows problems to scroll until a new release of doenet
+   and correctly handles asin and atan for derivatives. (as of 3/1/26)-->
 </docinfo>
