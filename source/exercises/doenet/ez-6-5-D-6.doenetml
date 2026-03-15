@@ -62,7 +62,7 @@
     </li>
     <li>
       <p>
-        <m>\displaystyle \lim_{b\to\infty} \int_0^b \frac{e^{-$k x}}{1+e^{-$k x}} \, dx = \lim_{b\to \infty}\Bigg(</m><mathInput minWidth="100" name="antiD"/><m>\displaystyle\Bigg|_0^b\Bigg)</m><answer forceSmallCheckWorkButton><award><when>$antiD = $F or $test=0 $antiD = $F2 or $test2=0</when></award></answer>
+        <m>\displaystyle \lim_{b\to\infty} \int_0^b \frac{e^{-$k x}}{1+e^{-$k x}} \, dx = \lim_{b\to \infty}\Bigg(</m><mathInput minWidth="100" name="antiD"/><m>\displaystyle\Bigg|_0^b\Bigg)</m><answer forceSmallCheckWorkButton><award><when>$antiD = $F or $test=0 or $antiD = $F2 or $test2=0</when></award></answer>
       </p>
       <p>
         <m>\hspace{1.7in} = \displaystyle \lim_{b\to \infty}</m><mathInput name="FnoInt" minWidth="75"/><answer forceSmallCheckWorkButton name="correctFnoInt"><award><when>$FnoInt = $$F(b) or $FnoInt = $$F2(b)</when></award></answer>
