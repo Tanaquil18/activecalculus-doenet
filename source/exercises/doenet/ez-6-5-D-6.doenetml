@@ -23,11 +23,11 @@
   <math name="value">1/$k*ln(2)</math>
 
   <math name="Ffordisplay"> -10/($kfordisplay)*ln(1+e^(-$k*b)) + 10/$kfordisplay*ln(2)</math>
-  <!-- Chose to use this in the hopes it would fit better on one line to make the final limit easier to read and analyze.  Downside is that it may not look like what students entered, and they might be confused.  Revisit. -->
+  <!-- Chose to use this in the hopes it would fit better on one line to make the final limit easier to read and analyze.  Downside is that it may not look like what students entered, and they might be confused. (Edit: changed it back because it didn't fit.) -->
 
   <conditionalContent name='nextStep'
             condition="$correctFnoInt.creditAchieved = 1">
-            <math name="math_limit" extend="$Ffordisplay"/>
+            <math name="math_limit" extend="$FnoInt.value"/>
           </conditionalContent>
 </setup>
 
