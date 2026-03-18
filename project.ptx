@@ -28,6 +28,11 @@
       xsl="acs-html.xsl"
       publication="publication_doenet.ptx"
       platform="runestone" />    
+    <target
+      name="doenet"
+      format="html"
+      xsl="acs-html.xsl"
+      publication="publication_doenet2.ptx" /> 
     <!-- <target
       name="runestone"
       format="html"
