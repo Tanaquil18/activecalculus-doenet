@@ -56,7 +56,7 @@
 
 <exercise label="ez-7-2-doenet-3">
   <title>Identifying equilibrium solutions and their stability from slope fields</title>
-  <!-- <dynamic> -->
+  <dynamic>
     <statement> 
         <p>
           <image width="100%">
@@ -82,8 +82,8 @@
           </slate>   
         </interactive>  
       </statement>
-  <!-- </dynamic>
-  <static/>  -->
+  </dynamic>
+  <static/> 
 </exercise> 
 
 <exercise label="ez-7-2-doenet-4">
@@ -116,7 +116,7 @@
 
 <exercise label="ez-7-2-doenet-6">
   <title>Matching slope fields to differential equations</title>
-  <!-- <dynamic> -->
+  <dynamic>
     <statement> 
       <p> 
       <image width="80%">
@@ -156,8 +156,8 @@
           </slate>   
         </interactive>  
     </statement>
-  <!-- </dynamic>
-  <static/>  -->
+  </dynamic>
+  <static/> 
 </exercise> 
 
 
